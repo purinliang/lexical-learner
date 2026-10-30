@@ -68,3 +68,21 @@ The database tests use temporary tables and roll back, preserving application
 tables and their contents. They skip when `DATABASE_URL` is absent. The fixture
 `sense_content_synthetic.json` is synthetic, not a captured provider response.
 Normal pytest still excludes live Gemini tests by default.
+
+To explicitly test only content generation against Gemini, reusing one selected
+clutch sense from `generate_lesson_live.json` with database I/O mocked:
+
+```bash
+uv run --env-file .env pytest tests/test_ensure_sense_content_live.py -m live -o addopts="" -s
+```
+
+This makes one real Gemini call, prints the content and cloze question, and saves
+the first successful result to `tests/fixtures/ensure_sense_content_live.json`.
+The capture marks database I/O as mocked, including its synthetic row ID. It does
+not write to application tables or overwrite an existing capture.
+
+Both live tests print `elapsed_seconds`, measured around the function under test
+using `time.perf_counter()`. This excludes fixture setup and assertions; it is
+function duration, not a provider-reported inference time. New content captures
+include this measurement. Existing captures are preserved without backfilling
+estimated timings.

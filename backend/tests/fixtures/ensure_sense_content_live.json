@@ -1,0 +1,57 @@
+{
+  "provider": "Google",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T13:11:05.771162+00:00",
+  "input_fixture": "generate_lesson_live.json",
+  "database": "mock",
+  "input": {
+    "lesson": {
+      "clutch": [
+        {
+          "sense_id": "oewn-clutch__1.06.01..",
+          "definition": [
+            "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism"
+          ],
+          "examples": [
+            "he smoothly released the clutch with one foot and stepped on the gas with the other"
+          ],
+          "synonyms": [
+            "clutch pedal"
+          ]
+        }
+      ]
+    },
+    "language": "zh",
+    "source": "gemini"
+  },
+  "output": {
+    "clutch": [
+      {
+        "sense_id": "oewn-clutch__1.06.01..",
+        "definition": [
+          "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism"
+        ],
+        "examples": [
+          "he smoothly released the clutch with one foot and stepped on the gas with the other"
+        ],
+        "synonyms": [
+          "clutch pedal"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "离合器",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 1,
+            "sentence": "He pressed the clutch to shift into a higher gear.",
+            "answer": "clutch",
+            "source": "gemini"
+          }
+        ]
+      }
+    ]
+  },
+  "question": "He pressed the ________ to shift into a higher gear."
+}
