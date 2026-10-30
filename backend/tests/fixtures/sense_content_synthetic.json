@@ -1,0 +1,25 @@
+{
+  "provider": "Google",
+  "synthetic": true,
+  "input": {
+    "0": {
+      "word": "clutch",
+      "definitions": [
+        "A pedal that operates a clutch."
+      ],
+      "missing": [
+        "translation",
+        "cloze"
+      ]
+    }
+  },
+  "output": {
+    "0": {
+      "translation": "离合器踏板",
+      "cloze": {
+        "sentence": "Press the clutch before changing gear.",
+        "answer": "clutch"
+      }
+    }
+  }
+}

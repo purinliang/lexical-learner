@@ -1,13 +1,14 @@
 # backend/src/lexical_learner/generate_lesson.py
-# Generate vocabulary, look up senses and map Gemini selections to dictionary entries.
+# Select WordNet senses, then reuse or generate their persisted exercise content.
 # I/O fixture: backend/tests/fixtures/generate_lesson_live.json
 
+from lexical_learner.ensure_sense_content import LessonSense, ensure_sense_content
 from lexical_learner.generate_vocabulary import generate_vocabulary
-from lexical_learner.lookup_words import WordSense, lookup_words
+from lexical_learner.lookup_words import lookup_words
 from lexical_learner.select_senses import select_senses
 
 
-def generate_lesson(prompt: str) -> dict[str, list[WordSense]]:
+def generate_lesson(prompt: str) -> dict[str, list[LessonSense]]:
     words = generate_vocabulary(prompt)
     if not words:
         return {}
@@ -18,4 +19,7 @@ def generate_lesson(prompt: str) -> dict[str, list[WordSense]]:
         for word, entries in senses.items()
     }
     selected = select_senses(prompt, definitions)
-    return {word: [senses[word][index] for index in indices] for word, indices in selected.items()}
+    lesson = {
+        word: [senses[word][index] for index in indices] for word, indices in selected.items()
+    }
+    return ensure_sense_content(lesson, language="zh", source="gemini")

@@ -1,5 +1,5 @@
 # backend/tests/test_generate_lesson.py
-# Test local assembly using real WordNet data and replayed Gemini outputs.
+# Test selected-sense assembly and content handoff using replayed Gemini outputs.
 # I/O fixture: backend/tests/fixtures/generate_lesson_live.json
 
 import json
@@ -21,6 +21,8 @@ def test_generate_lesson(monkeypatch: pytest.MonkeyPatch) -> None:
     select = Mock(return_value=selection_record["output"])
     monkeypatch.setattr("lexical_learner.generate_lesson.generate_vocabulary", generate)
     monkeypatch.setattr("lexical_learner.generate_lesson.select_senses", select)
+    enrich = Mock(side_effect=lambda lesson, **kwargs: lesson)
+    monkeypatch.setattr("lexical_learner.generate_lesson.ensure_sense_content", enrich)
 
     lesson = generate_lesson(**lesson_record["input"])
     assert lesson == lesson_record["output"]
@@ -30,6 +32,7 @@ def test_generate_lesson(monkeypatch: pytest.MonkeyPatch) -> None:
     assert "trunk" not in lesson["trunk"][0]["synonyms"]
     assert lesson["clutch"][0]["synonyms"] == ["clutch pedal"]
     assert lesson["clutch"][1]["synonyms"] == []
+    enrich.assert_called_once_with(lesson_record["output"], language="zh", source="gemini")
     generate.assert_called_once_with(lesson_record["input"]["prompt"])
     select.assert_called_once_with(
         selection_record["input"]["prompt"], selection_record["input"]["definitions"]
@@ -40,11 +43,14 @@ def test_generate_lesson_stops_for_overlong_prompt(monkeypatch: pytest.MonkeyPat
     model = Mock()
     lookup = Mock()
     select = Mock()
+    enrich = Mock()
     monkeypatch.setattr("lexical_learner.generate_vocabulary.create_model", model)
     monkeypatch.setattr("lexical_learner.generate_lesson.lookup_words", lookup)
     monkeypatch.setattr("lexical_learner.generate_lesson.select_senses", select)
+    monkeypatch.setattr("lexical_learner.generate_lesson.ensure_sense_content", enrich)
 
     assert generate_lesson("车" * 342) == {}
     model.assert_not_called()
     lookup.assert_not_called()
     select.assert_not_called()
+    enrich.assert_not_called()
