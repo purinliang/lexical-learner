@@ -1,0 +1,177 @@
+{
+  "provider": "Google",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T07:43:34.390152+00:00",
+  "input": {
+    "prompt": "我准备要去参加驾考，可是我不太熟悉车上常用的零件怎么说。",
+    "definitions": {
+      "steering wheel": [
+        "a handwheel that is used for steering"
+      ],
+      "brake pedal": [
+        "foot pedal that moves a piston in the master brake cylinder"
+      ],
+      "accelerator": [
+        "a pedal that controls the throttle valve",
+        "a valve that regulates the supply of fuel to the engine",
+        "(chemistry) a substance that initiates or accelerates a chemical reaction without itself being affected",
+        "a scientific instrument that increases the kinetic energy of charged particles"
+      ],
+      "clutch": [
+        "the act of grasping",
+        "a tense critical situation",
+        "a number of birds hatched at the same time",
+        "a collection of things or persons to be handled together",
+        "a woman's strapless purse that is carried in the hand",
+        "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism",
+        "a coupling that connects or disconnects driving and driven parts of a driving mechanism",
+        "take into your hands deliberately",
+        "hold firmly, usually with one's hands",
+        "affect"
+      ],
+      "gear shift": [],
+      "handbrake": [],
+      "rearview mirror": [
+        "car mirror that reflects the view out of the rear window"
+      ],
+      "side mirror": [],
+      "turn signal": [
+        "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
+      ],
+      "headlights": [],
+      "windshield wipers": [],
+      "seat belt": [
+        "a safety belt used in a car or plane to hold you in your seat in case of an accident"
+      ],
+      "dashboard": [
+        "protective covering consisting of a panel to protect people from the splashing water or mud etc.",
+        "instrument panel on an automobile or airplane containing dials and controls"
+      ],
+      "ignition": [
+        "the process of initiating combustion or catching fire",
+        "the mechanism that ignites the fuel in an internal-combustion engine",
+        "the act of setting something on fire"
+      ],
+      "hazard lights": [],
+      "blind spot": [
+        "a subject about which you are ignorant or prejudiced and fail to exercise good judgment",
+        "the point where the optic nerve enters the retina; not sensitive to light"
+      ],
+      "glove compartment": [
+        "compartment on the dashboard of a car"
+      ],
+      "trunk": [
+        "the main stem of a tree; usually covered with bark; the bole is usually the part that is commercially useful for lumber",
+        "luggage consisting of a large strong case used when traveling or for storage",
+        "the body excluding the head and neck and limbs",
+        "compartment in an automobile that carries luggage or shopping or tools",
+        "a long flexible snout as of an elephant"
+      ],
+      "hood": [
+        "an aggressive and violent young criminal",
+        "a protective covering that is part of a plant",
+        "an urban, often lower-income inner-city area",
+        "a tubular attachment used to keep stray light out of the lens of a camera",
+        "(falconry) a leather covering for a hawk's head",
+        "metal covering leading to a vent that exhausts smoke or fumes",
+        "the folding roof of a carriage",
+        "a headdress that protects the head and face",
+        "protective covering consisting of a metal part that covers the engine",
+        "(zoology) an expandable part or marking that resembles a hood on the head or neck of an animal",
+        "cover with a hood"
+      ],
+      "tire pressure": [],
+      "speedometer": [
+        "a meter fixed to a vehicle that measures and displays its speed"
+      ],
+      "fuel gauge": [
+        "an indicator of the amount of fuel remaining in a vehicle"
+      ],
+      "air conditioning": [
+        "a system that keeps air cool and dry"
+      ],
+      "horn": [
+        "a noisemaker (as at parties or games) that makes a loud noise when you blow through it",
+        "one of the bony outgrowths on the heads of certain ungulates",
+        "a noise made by the driver of an automobile to give warning",
+        "a high pommel of a Western saddle (usually metal covered with leather)",
+        "a brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves",
+        "any hard protuberance from the head of an organism that is similar to or suggestive of a horn",
+        "the material (mostly keratin) that covers the horns of ungulates and forms hooves and claws and nails",
+        "a device having the shape of a horn",
+        "an alarm device that makes a loud warning sound",
+        "a brass musical instrument consisting of a conical tube that is coiled into a spiral and played by means of valves",
+        "a device on an automobile for making a warning noise",
+        "stab or pierce with a horn or tusk"
+      ],
+      "defroster": [
+        "heater that removes ice or frost (as from a windshield or a refrigerator or the wings of an airplane)"
+      ]
+    }
+  },
+  "output": {
+    "steering wheel": [
+      0
+    ],
+    "brake pedal": [
+      0
+    ],
+    "accelerator": [
+      0,
+      1
+    ],
+    "clutch": [
+      5,
+      6
+    ],
+    "gear shift": [],
+    "handbrake": [],
+    "rearview mirror": [
+      0
+    ],
+    "side mirror": [],
+    "turn signal": [
+      0
+    ],
+    "headlights": [],
+    "windshield wipers": [],
+    "seat belt": [
+      0
+    ],
+    "dashboard": [
+      1
+    ],
+    "ignition": [
+      1
+    ],
+    "hazard lights": [],
+    "blind spot": [],
+    "glove compartment": [
+      0
+    ],
+    "trunk": [
+      3
+    ],
+    "hood": [
+      8
+    ],
+    "tire pressure": [],
+    "speedometer": [
+      0
+    ],
+    "fuel gauge": [
+      0
+    ],
+    "air conditioning": [
+      0
+    ],
+    "horn": [
+      2,
+      8,
+      10
+    ],
+    "defroster": [
+      0
+    ]
+  }
+}

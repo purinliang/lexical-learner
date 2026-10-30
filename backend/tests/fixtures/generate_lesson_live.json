@@ -1,0 +1,212 @@
+{
+  "provider": "Google",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T07:43:34.390152+00:00",
+  "vocabulary_fixture": "generate_vocabulary_live.json",
+  "input": {
+    "prompt": "我准备要去参加驾考，可是我不太熟悉车上常用的零件怎么说。"
+  },
+  "output": {
+    "steering wheel": [
+      {
+        "sense_id": "oewn-steering_wheel__1.06.00..",
+        "definition": [
+          "a handwheel that is used for steering"
+        ],
+        "examples": []
+      }
+    ],
+    "brake pedal": [
+      {
+        "sense_id": "oewn-brake_pedal__1.06.00..",
+        "definition": [
+          "foot pedal that moves a piston in the master brake cylinder"
+        ],
+        "examples": []
+      }
+    ],
+    "accelerator": [
+      {
+        "sense_id": "oewn-accelerator__1.06.02..",
+        "definition": [
+          "a pedal that controls the throttle valve"
+        ],
+        "examples": [
+          "he stepped on the gas"
+        ]
+      },
+      {
+        "sense_id": "oewn-accelerator__1.06.00..",
+        "definition": [
+          "a valve that regulates the supply of fuel to the engine"
+        ],
+        "examples": []
+      }
+    ],
+    "clutch": [
+      {
+        "sense_id": "oewn-clutch__1.06.01..",
+        "definition": [
+          "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism"
+        ],
+        "examples": [
+          "he smoothly released the clutch with one foot and stepped on the gas with the other"
+        ]
+      },
+      {
+        "sense_id": "oewn-clutch__1.06.00..",
+        "definition": [
+          "a coupling that connects or disconnects driving and driven parts of a driving mechanism"
+        ],
+        "examples": [
+          "this year's model has an improved clutch"
+        ]
+      }
+    ],
+    "gear shift": [],
+    "handbrake": [],
+    "rearview mirror": [
+      {
+        "sense_id": "oewn-rearview_mirror__1.06.00..",
+        "definition": [
+          "car mirror that reflects the view out of the rear window"
+        ],
+        "examples": []
+      }
+    ],
+    "side mirror": [],
+    "turn signal": [
+      {
+        "sense_id": "oewn-turn_signal__1.10.00..",
+        "definition": [
+          "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
+        ],
+        "examples": []
+      }
+    ],
+    "headlights": [],
+    "windshield wipers": [],
+    "seat belt": [
+      {
+        "sense_id": "oewn-seat_belt__1.06.00..",
+        "definition": [
+          "a safety belt used in a car or plane to hold you in your seat in case of an accident"
+        ],
+        "examples": []
+      }
+    ],
+    "dashboard": [
+      {
+        "sense_id": "oewn-dashboard__1.06.00..",
+        "definition": [
+          "instrument panel on an automobile or airplane containing dials and controls"
+        ],
+        "examples": []
+      }
+    ],
+    "ignition": [
+      {
+        "sense_id": "oewn-ignition__1.06.00..",
+        "definition": [
+          "the mechanism that ignites the fuel in an internal-combustion engine"
+        ],
+        "examples": []
+      }
+    ],
+    "hazard lights": [],
+    "blind spot": [],
+    "glove compartment": [
+      {
+        "sense_id": "oewn-glove_compartment__1.06.00..",
+        "definition": [
+          "compartment on the dashboard of a car"
+        ],
+        "examples": []
+      }
+    ],
+    "trunk": [
+      {
+        "sense_id": "oewn-trunk__1.06.01..",
+        "definition": [
+          "compartment in an automobile that carries luggage or shopping or tools"
+        ],
+        "examples": [
+          "he put his golf bag in the trunk"
+        ]
+      }
+    ],
+    "hood": [
+      {
+        "sense_id": "oewn-hood__1.06.00..",
+        "definition": [
+          "protective covering consisting of a metal part that covers the engine"
+        ],
+        "examples": [
+          "there are powerful engines under the hoods of new cars",
+          "the mechanic removed the cowling in order to repair the plane's engine"
+        ]
+      }
+    ],
+    "tire pressure": [],
+    "speedometer": [
+      {
+        "sense_id": "oewn-speedometer__1.06.00..",
+        "definition": [
+          "a meter fixed to a vehicle that measures and displays its speed"
+        ],
+        "examples": []
+      }
+    ],
+    "fuel gauge": [
+      {
+        "sense_id": "oewn-fuel_gauge__1.06.00..",
+        "definition": [
+          "an indicator of the amount of fuel remaining in a vehicle"
+        ],
+        "examples": []
+      }
+    ],
+    "air conditioning": [
+      {
+        "sense_id": "oewn-air_conditioning__1.06.00..",
+        "definition": [
+          "a system that keeps air cool and dry"
+        ],
+        "examples": []
+      }
+    ],
+    "horn": [
+      {
+        "sense_id": "oewn-horn__1.10.02..",
+        "definition": [
+          "a noise made by the driver of an automobile to give warning"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-horn__1.06.03..",
+        "definition": [
+          "an alarm device that makes a loud warning sound"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-horn__1.06.05..",
+        "definition": [
+          "a device on an automobile for making a warning noise"
+        ],
+        "examples": []
+      }
+    ],
+    "defroster": [
+      {
+        "sense_id": "oewn-defroster__1.06.00..",
+        "definition": [
+          "heater that removes ice or frost (as from a windshield or a refrigerator or the wings of an airplane)"
+        ],
+        "examples": []
+      }
+    ]
+  },
+  "selection_fixture": "select_senses_live.json"
+}
