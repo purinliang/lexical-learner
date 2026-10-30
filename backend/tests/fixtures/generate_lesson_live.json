@@ -13,7 +13,10 @@
         "definition": [
           "a handwheel that is used for steering"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "wheel"
+        ]
       }
     ],
     "brake pedal": [
@@ -22,7 +25,8 @@
         "definition": [
           "foot pedal that moves a piston in the master brake cylinder"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       }
     ],
     "accelerator": [
@@ -33,6 +37,13 @@
         ],
         "examples": [
           "he stepped on the gas"
+        ],
+        "synonyms": [
+          "accelerator pedal",
+          "gas pedal",
+          "gas",
+          "throttle",
+          "gun"
         ]
       },
       {
@@ -40,7 +51,11 @@
         "definition": [
           "a valve that regulates the supply of fuel to the engine"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "throttle",
+          "throttle valve"
+        ]
       }
     ],
     "clutch": [
@@ -51,6 +66,9 @@
         ],
         "examples": [
           "he smoothly released the clutch with one foot and stepped on the gas with the other"
+        ],
+        "synonyms": [
+          "clutch pedal"
         ]
       },
       {
@@ -60,7 +78,8 @@
         ],
         "examples": [
           "this year's model has an improved clutch"
-        ]
+        ],
+        "synonyms": []
       }
     ],
     "gear shift": [],
@@ -71,7 +90,8 @@
         "definition": [
           "car mirror that reflects the view out of the rear window"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       }
     ],
     "side mirror": [],
@@ -81,7 +101,12 @@
         "definition": [
           "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "blinker",
+          "turn indicator",
+          "trafficator"
+        ]
       }
     ],
     "headlights": [],
@@ -92,7 +117,10 @@
         "definition": [
           "a safety belt used in a car or plane to hold you in your seat in case of an accident"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "seatbelt"
+        ]
       }
     ],
     "dashboard": [
@@ -101,7 +129,10 @@
         "definition": [
           "instrument panel on an automobile or airplane containing dials and controls"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "fascia"
+        ]
       }
     ],
     "ignition": [
@@ -110,7 +141,10 @@
         "definition": [
           "the mechanism that ignites the fuel in an internal-combustion engine"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "ignition system"
+        ]
       }
     ],
     "hazard lights": [],
@@ -121,7 +155,8 @@
         "definition": [
           "compartment on the dashboard of a car"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       }
     ],
     "trunk": [
@@ -132,6 +167,11 @@
         ],
         "examples": [
           "he put his golf bag in the trunk"
+        ],
+        "synonyms": [
+          "luggage compartment",
+          "automobile trunk",
+          "boot"
         ]
       }
     ],
@@ -144,6 +184,11 @@
         "examples": [
           "there are powerful engines under the hoods of new cars",
           "the mechanic removed the cowling in order to repair the plane's engine"
+        ],
+        "synonyms": [
+          "bonnet",
+          "cowl",
+          "cowling"
         ]
       }
     ],
@@ -154,7 +199,10 @@
         "definition": [
           "a meter fixed to a vehicle that measures and displays its speed"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "speed indicator"
+        ]
       }
     ],
     "fuel gauge": [
@@ -163,7 +211,10 @@
         "definition": [
           "an indicator of the amount of fuel remaining in a vehicle"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "fuel indicator"
+        ]
       }
     ],
     "air conditioning": [
@@ -172,7 +223,10 @@
         "definition": [
           "a system that keeps air cool and dry"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "air conditioner"
+        ]
       }
     ],
     "horn": [
@@ -181,21 +235,29 @@
         "definition": [
           "a noise made by the driver of an automobile to give warning"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       },
       {
         "sense_id": "oewn-horn__1.06.03..",
         "definition": [
           "an alarm device that makes a loud warning sound"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       },
       {
         "sense_id": "oewn-horn__1.06.05..",
         "definition": [
           "a device on an automobile for making a warning noise"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "automobile horn",
+          "car horn",
+          "motor horn",
+          "hooter"
+        ]
       }
     ],
     "defroster": [
@@ -204,7 +266,10 @@
         "definition": [
           "heater that removes ice or frost (as from a windshield or a refrigerator or the wings of an airplane)"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "deicer"
+        ]
       }
     ]
   },

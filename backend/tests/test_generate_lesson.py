@@ -26,6 +26,10 @@ def test_generate_lesson(monkeypatch: pytest.MonkeyPatch) -> None:
     assert lesson == lesson_record["output"]
     assert len(lesson["clutch"]) == 2
     assert lesson["gear shift"] == []
+    assert "boot" in lesson["trunk"][0]["synonyms"]
+    assert "trunk" not in lesson["trunk"][0]["synonyms"]
+    assert lesson["clutch"][0]["synonyms"] == ["clutch pedal"]
+    assert lesson["clutch"][1]["synonyms"] == []
     generate.assert_called_once_with(lesson_record["input"]["prompt"])
     select.assert_called_once_with(
         selection_record["input"]["prompt"], selection_record["input"]["definitions"]

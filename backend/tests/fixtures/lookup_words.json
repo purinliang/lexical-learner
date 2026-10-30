@@ -1,7 +1,7 @@
 {
   "provider": "WordNet",
   "version": "oewn:2025",
-  "captured_at": "2026-10-30T06:35:11.091062+00:00",
+  "captured_at": "2026-10-30T07:59:13.563568+00:00",
   "input": {
     "words": [
       "boot",
@@ -16,7 +16,8 @@
         "definition": [
           "footwear that covers the whole foot and lower leg"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       },
       {
         "sense_id": "oewn-boot__1.06.01..",
@@ -25,6 +26,11 @@
         ],
         "examples": [
           "he put his golf bag in the trunk"
+        ],
+        "synonyms": [
+          "luggage compartment",
+          "automobile trunk",
+          "trunk"
         ]
       },
       {
@@ -37,6 +43,14 @@
           "what a boot!",
           "he got a quick rush from injecting heroin",
           "he does it for kicks"
+        ],
+        "synonyms": [
+          "bang",
+          "charge",
+          "rush",
+          "flush",
+          "thrill",
+          "kick"
         ]
       },
       {
@@ -44,21 +58,28 @@
         "definition": [
           "protective casing for something that resembles a leg"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       },
       {
         "sense_id": "oewn-boot__1.06.02..",
         "definition": [
           "an instrument of torture that is used to heat or crush the foot and leg"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "the boot",
+          "iron boot",
+          "iron heel"
+        ]
       },
       {
         "sense_id": "oewn-boot__1.04.01..",
         "definition": [
           "a form of foot torture in which the feet are encased in iron and slowly crushed"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       },
       {
         "sense_id": "oewn-boot__1.04.00..",
@@ -68,6 +89,10 @@
         "examples": [
           "he gave the ball a powerful kick",
           "the team's kicking was excellent"
+        ],
+        "synonyms": [
+          "kick",
+          "kicking"
         ]
       },
       {
@@ -75,7 +100,8 @@
         "definition": [
           "kick; give a boot to"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": []
       },
       {
         "sense_id": "oewn-boot__2.29.00..",
@@ -84,6 +110,10 @@
         ],
         "examples": [
           "boot your computer"
+        ],
+        "synonyms": [
+          "reboot",
+          "bring up"
         ]
       }
     ],
@@ -93,7 +123,10 @@
         "definition": [
           "a handwheel that is used for steering"
         ],
-        "examples": []
+        "examples": [],
+        "synonyms": [
+          "wheel"
+        ]
       }
     ],
     "blind spot monitoring": []
