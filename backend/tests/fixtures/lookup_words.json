@@ -1,0 +1,101 @@
+{
+  "provider": "WordNet",
+  "version": "oewn:2025",
+  "captured_at": "2026-10-30T06:35:11.091062+00:00",
+  "input": {
+    "words": [
+      "boot",
+      "steering wheel",
+      "blind spot monitoring"
+    ]
+  },
+  "output": {
+    "boot": [
+      {
+        "sense_id": "oewn-boot__1.06.00..",
+        "definition": [
+          "footwear that covers the whole foot and lower leg"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-boot__1.06.01..",
+        "definition": [
+          "compartment in an automobile that carries luggage or shopping or tools"
+        ],
+        "examples": [
+          "he put his golf bag in the trunk"
+        ]
+      },
+      {
+        "sense_id": "oewn-boot__1.12.00..",
+        "definition": [
+          "the swift release of a store of affective force"
+        ],
+        "examples": [
+          "they got a great bang out of it",
+          "what a boot!",
+          "he got a quick rush from injecting heroin",
+          "he does it for kicks"
+        ]
+      },
+      {
+        "sense_id": "oewn-boot__1.06.03..",
+        "definition": [
+          "protective casing for something that resembles a leg"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-boot__1.06.02..",
+        "definition": [
+          "an instrument of torture that is used to heat or crush the foot and leg"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-boot__1.04.01..",
+        "definition": [
+          "a form of foot torture in which the feet are encased in iron and slowly crushed"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-boot__1.04.00..",
+        "definition": [
+          "the act of delivering a blow with the foot"
+        ],
+        "examples": [
+          "he gave the ball a powerful kick",
+          "the team's kicking was excellent"
+        ]
+      },
+      {
+        "sense_id": "oewn-boot__2.35.00..",
+        "definition": [
+          "kick; give a boot to"
+        ],
+        "examples": []
+      },
+      {
+        "sense_id": "oewn-boot__2.29.00..",
+        "definition": [
+          "cause to load (an operating system) and start the initial processes"
+        ],
+        "examples": [
+          "boot your computer"
+        ]
+      }
+    ],
+    "steering wheel": [
+      {
+        "sense_id": "oewn-steering_wheel__1.06.00..",
+        "definition": [
+          "a handwheel that is used for steering"
+        ],
+        "examples": []
+      }
+    ],
+    "blind spot monitoring": []
+  }
+}
