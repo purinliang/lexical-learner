@@ -1,0 +1,626 @@
+{
+  "run_id": "c6d6023f-15f7-4d7a-abec-9a62a7bfb123",
+  "stage": "generate_lesson",
+  "captured_at": "2026-10-30T13:31:15.029790+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "prompt": "我准备要去参加驾考，可是我不太熟悉车上常用的零件怎么说。"
+  },
+  "output": {
+    "steering wheel": [
+      {
+        "sense_id": "oewn-steering_wheel__1.06.00..",
+        "definition": [
+          "a handwheel that is used for steering"
+        ],
+        "examples": [],
+        "synonyms": [
+          "wheel"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "方向盘",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 1,
+            "sentence": "He kept both hands on the steering wheel while driving along the winding road.",
+            "answer": "steering wheel",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "gear shift": [],
+    "accelerator": [
+      {
+        "sense_id": "oewn-accelerator__1.06.02..",
+        "definition": [
+          "a pedal that controls the throttle valve"
+        ],
+        "examples": [
+          "he stepped on the gas"
+        ],
+        "synonyms": [
+          "accelerator pedal",
+          "gas pedal",
+          "gas",
+          "throttle",
+          "gun"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "加速踏板",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 3,
+            "sentence": "She pressed the accelerator to increase the speed of the car.",
+            "answer": "accelerator",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-accelerator__1.06.00..",
+        "definition": [
+          "a valve that regulates the supply of fuel to the engine"
+        ],
+        "examples": [],
+        "synonyms": [
+          "throttle",
+          "throttle valve"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "节流阀",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 4,
+            "sentence": "The engine was idling poorly because of a faulty accelerator.",
+            "answer": "accelerator",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "brake pedal": [
+      {
+        "sense_id": "oewn-brake_pedal__1.06.00..",
+        "definition": [
+          "foot pedal that moves a piston in the master brake cylinder"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "刹车踏板",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 5,
+            "sentence": "He stomped on the brake pedal when the car in front suddenly stopped.",
+            "answer": "brake pedal",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "clutch": [
+      {
+        "sense_id": "oewn-clutch__1.06.01..",
+        "definition": [
+          "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism"
+        ],
+        "examples": [
+          "he smoothly released the clutch with one foot and stepped on the gas with the other"
+        ],
+        "synonyms": [
+          "clutch pedal"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "离合器踏板",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 6,
+            "sentence": "Remember to push in the clutch before you try to shift gears.",
+            "answer": "clutch",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-clutch__1.06.00..",
+        "definition": [
+          "a coupling that connects or disconnects driving and driven parts of a driving mechanism"
+        ],
+        "examples": [
+          "this year's model has an improved clutch"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "离合器",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 7,
+            "sentence": "The car would not move because the clutch was slipping.",
+            "answer": "clutch",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "handbrake": [],
+    "turn signal": [
+      {
+        "sense_id": "oewn-turn_signal__1.10.00..",
+        "definition": [
+          "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
+        ],
+        "examples": [],
+        "synonyms": [
+          "blinker",
+          "turn indicator",
+          "trafficator"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "转向灯",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 9,
+            "sentence": "Don't forget to use your turn signal before making a right turn.",
+            "answer": "turn signal",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "headlights": [],
+    "windshield wipers": [],
+    "rearview mirror": [
+      {
+        "sense_id": "oewn-rearview_mirror__1.06.00..",
+        "definition": [
+          "car mirror that reflects the view out of the rear window"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "后视镜",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 8,
+            "sentence": "She checked her rearview mirror before changing lanes on the highway.",
+            "answer": "rearview mirror",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "side mirror": [],
+    "seatbelt": [
+      {
+        "sense_id": "oewn-seatbelt__1.06.00..",
+        "definition": [
+          "a safety belt used in a car or plane to hold you in your seat in case of an accident"
+        ],
+        "examples": [],
+        "synonyms": [
+          "seat belt"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "安全带",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 10,
+            "sentence": "Make sure to fasten your seatbelt before the vehicle starts moving.",
+            "answer": "seatbelt",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "ignition": [
+      {
+        "sense_id": "oewn-ignition__1.06.00..",
+        "definition": [
+          "the mechanism that ignites the fuel in an internal-combustion engine"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ignition system"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "点火装置",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 11,
+            "sentence": "The car failed to start because the ignition was damaged.",
+            "answer": "ignition",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "dashboard": [
+      {
+        "sense_id": "oewn-dashboard__1.06.00..",
+        "definition": [
+          "instrument panel on an automobile or airplane containing dials and controls"
+        ],
+        "examples": [],
+        "synonyms": [
+          "fascia"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "仪表板",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 2,
+            "sentence": "The driver glanced at the dashboard to check the warning lights.",
+            "answer": "dashboard",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "hazard lights": [],
+    "high beam": [
+      {
+        "sense_id": "oewn-high_beam__1.19.00..",
+        "definition": [
+          "the beam of a car's headlights that provides distant illumination"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "远光灯",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 18,
+            "sentence": "The driver switched to the high beam to see the road better in the dark.",
+            "answer": "high beam",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "horn": [
+      {
+        "sense_id": "oewn-horn__1.10.02..",
+        "definition": [
+          "a noise made by the driver of an automobile to give warning"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "汽车喇叭声",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 19,
+            "sentence": "I heard a loud horn from the car behind me at the intersection.",
+            "answer": "horn",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-horn__1.06.03..",
+        "definition": [
+          "an alarm device that makes a loud warning sound"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "喇叭（警报装置）",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 20,
+            "sentence": "The safety system triggered a loud horn to alert everyone of the potential danger.",
+            "answer": "horn",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-horn__1.06.05..",
+        "definition": [
+          "a device on an automobile for making a warning noise"
+        ],
+        "examples": [],
+        "synonyms": [
+          "automobile horn",
+          "car horn",
+          "motor horn",
+          "hooter"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "汽车喇叭",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 21,
+            "sentence": "He pressed the horn to warn the pedestrian crossing the street.",
+            "answer": "horn",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "glove compartment": [
+      {
+        "sense_id": "oewn-glove_compartment__1.06.00..",
+        "definition": [
+          "compartment on the dashboard of a car"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "手套箱",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 22,
+            "sentence": "I keep my vehicle registration papers inside the glove compartment for easy access.",
+            "answer": "glove compartment",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "trunk": [
+      {
+        "sense_id": "oewn-trunk__1.06.01..",
+        "definition": [
+          "compartment in an automobile that carries luggage or shopping or tools"
+        ],
+        "examples": [
+          "he put his golf bag in the trunk"
+        ],
+        "synonyms": [
+          "luggage compartment",
+          "automobile trunk",
+          "boot"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "后备箱",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 12,
+            "sentence": "We put all our suitcases in the trunk before heading to the airport.",
+            "answer": "trunk",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "hood": [
+      {
+        "sense_id": "oewn-hood__1.06.04..",
+        "definition": [
+          "metal covering leading to a vent that exhausts smoke or fumes"
+        ],
+        "examples": [],
+        "synonyms": [
+          "exhaust hood"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "抽油烟机罩",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 23,
+            "sentence": "Make sure the hood is functioning properly to exhaust the smoke while cooking.",
+            "answer": "hood",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-hood__1.06.00..",
+        "definition": [
+          "protective covering consisting of a metal part that covers the engine"
+        ],
+        "examples": [
+          "there are powerful engines under the hoods of new cars",
+          "the mechanic removed the cowling in order to repair the plane's engine"
+        ],
+        "synonyms": [
+          "bonnet",
+          "cowl",
+          "cowling"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "引擎盖",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 13,
+            "sentence": "He popped the hood to inspect the engine after noticing some smoke.",
+            "answer": "hood",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "blind spot": [
+      {
+        "sense_id": "oewn-blind_spot__1.08.00..",
+        "definition": [
+          "the point where the optic nerve enters the retina; not sensitive to light"
+        ],
+        "examples": [],
+        "synonyms": [
+          "optic disc",
+          "optic disk"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "盲点（视网膜）",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 24,
+            "sentence": "The image disappears when it falls on the blind spot of the retina.",
+            "answer": "blind spot",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "blind spot monitoring": [],
+    "reverse gear": [
+      {
+        "sense_id": "oewn-reverse_gear__1.06.00..",
+        "definition": [
+          "the gears by which the motion of a machine can be reversed"
+        ],
+        "examples": [],
+        "synonyms": [
+          "reverse"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "倒档",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 25,
+            "sentence": "You must come to a complete stop before shifting the car into reverse gear.",
+            "answer": "reverse gear",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "neutral": [],
+    "blind spot mirror": [],
+    "child safety lock": [],
+    "defroster": [
+      {
+        "sense_id": "oewn-defroster__1.06.00..",
+        "definition": [
+          "heater that removes ice or frost (as from a windshield or a refrigerator or the wings of an airplane)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "deicer"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "除霜器",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 26,
+            "sentence": "Turn on the defroster to clear the ice off your windshield before you start driving.",
+            "answer": "defroster",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "fuel gauge": [
+      {
+        "sense_id": "oewn-fuel_gauge__1.06.00..",
+        "definition": [
+          "an indicator of the amount of fuel remaining in a vehicle"
+        ],
+        "examples": [],
+        "synonyms": [
+          "fuel indicator"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "燃油表",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 16,
+            "sentence": "According to the fuel gauge, we only have enough gas to drive another twenty miles.",
+            "answer": "fuel gauge",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "speedometer": [
+      {
+        "sense_id": "oewn-speedometer__1.06.00..",
+        "definition": [
+          "a meter fixed to a vehicle that measures and displays its speed"
+        ],
+        "examples": [],
+        "synonyms": [
+          "speed indicator"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "速度计",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 15,
+            "sentence": "The speedometer showed that he was driving well over the speed limit.",
+            "answer": "speedometer",
+            "source": "gemini"
+          }
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 7.773
+}

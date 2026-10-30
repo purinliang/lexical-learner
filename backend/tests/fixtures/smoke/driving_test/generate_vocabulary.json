@@ -1,0 +1,39 @@
+{
+  "run_id": "b5788797-65a3-4b6f-bacd-61a7dbc11382",
+  "stage": "generate_vocabulary",
+  "captured_at": "2026-10-30T13:31:07.386661+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "prompt": "我准备要去参加驾考，可是我不太熟悉车上常用的零件怎么说。"
+  },
+  "output": [
+    "steering wheel",
+    "dashboard",
+    "gear shift",
+    "accelerator",
+    "brake pedal",
+    "clutch",
+    "rearview mirror",
+    "side mirror",
+    "turn signal",
+    "headlights",
+    "windshield wipers",
+    "handbrake",
+    "seatbelt",
+    "hazard lights",
+    "ignition",
+    "glove box",
+    "blind spot",
+    "trunk",
+    "hood",
+    "engine",
+    "tire pressure",
+    "speedometer",
+    "fuel gauge",
+    "rear defrost",
+    "air conditioning"
+  ],
+  "elapsed_seconds": 1.471
+}

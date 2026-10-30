@@ -1,0 +1,496 @@
+{
+  "run_id": "debf249b-d8aa-47e9-8e04-e8bbbb80e725",
+  "stage": "lookup_words",
+  "captured_at": "2026-10-30T13:31:24.319499+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "words": [
+      "seafood mix",
+      "heavy cream",
+      "al dente",
+      "sauté",
+      "deglaze",
+      "garlic cloves",
+      "parmesan cheese",
+      "fresh parsley",
+      "simmer",
+      "emulsify",
+      "pasta water",
+      "searing",
+      "flavor profile",
+      "garnish",
+      "richness",
+      "seasoning",
+      "white wine",
+      "aromatic",
+      "texture",
+      "culinary technique",
+      "homemade",
+      "plating",
+      "indulgent",
+      "balanced",
+      "mouthfeel"
+    ]
+  },
+  "output": {
+    "seafood mix": [],
+    "heavy cream": [
+      {
+        "sense_id": "oewn-heavy_cream__1.13.00..",
+        "definition": [
+          "contains more than 36% butterfat"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "al dente": [
+      {
+        "sense_id": "oewn-al_dente__5.00.00.hard.01",
+        "definition": [
+          "of pasta cooked so as to be firm when eaten"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "sauté": [
+      {
+        "sense_id": "oewn-saute__5.00.00.cooked.00",
+        "definition": [
+          "fried quickly in a little fat"
+        ],
+        "examples": [],
+        "synonyms": [
+          "sauteed"
+        ]
+      },
+      {
+        "sense_id": "oewn-saute__1.13.00..",
+        "definition": [
+          "a dish of sauteed food"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-saute__2.30.00..",
+        "definition": [
+          "fry briefly over high heat"
+        ],
+        "examples": [
+          "saute the onions"
+        ],
+        "synonyms": []
+      }
+    ],
+    "deglaze": [
+      {
+        "sense_id": "oewn-deglaze__2.36.00..",
+        "definition": [
+          "dissolve cooking juices or solid food in (a pan) by adding liquid and stirring"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "garlic cloves": [],
+    "parmesan cheese": [],
+    "fresh parsley": [],
+    "simmer": [
+      {
+        "sense_id": "oewn-simmer__1.07.00..",
+        "definition": [
+          "temperature just below the boiling point"
+        ],
+        "examples": [
+          "the stew remained at a simmer for hours"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-simmer__2.30.00..",
+        "definition": [
+          "boil slowly at low temperature"
+        ],
+        "examples": [
+          "simmer the sauce",
+          "simmering water"
+        ],
+        "synonyms": []
+      }
+    ],
+    "emulsify": [
+      {
+        "sense_id": "oewn-emulsify__2.30.01..",
+        "definition": [
+          "cause to become an emulsion; make into an emulsion"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-emulsify__2.30.00..",
+        "definition": [
+          "form into or become an emulsion"
+        ],
+        "examples": [
+          "The solution emulsified"
+        ],
+        "synonyms": []
+      }
+    ],
+    "pasta water": [],
+    "searing": [
+      {
+        "sense_id": "oewn-searing__5.00.00.critical.01",
+        "definition": [
+          "severely critical"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "flavor profile": [],
+    "garnish": [
+      {
+        "sense_id": "oewn-garnish__1.13.00..",
+        "definition": [
+          "something (such as parsley) added to a dish for flavor or decoration"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-garnish__1.06.00..",
+        "definition": [
+          "any decoration added as a trimming or adornment"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-garnish__2.40.00..",
+        "definition": [
+          "take a debtor's wages on legal orders, such as for child support"
+        ],
+        "examples": [
+          "His employer garnished his wages in order to pay his debt"
+        ],
+        "synonyms": [
+          "garnishee"
+        ]
+      },
+      {
+        "sense_id": "oewn-garnish__2.36.00..",
+        "definition": [
+          "decorate (food), as with parsley or other ornamental foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "trim",
+          "dress"
+        ]
+      }
+    ],
+    "richness": [
+      {
+        "sense_id": "oewn-richness__1.07.03..",
+        "definition": [
+          "the property of being extremely abundant"
+        ],
+        "examples": [
+          "the profusion of detail",
+          "the idiomatic richness of English"
+        ],
+        "synonyms": [
+          "profusion",
+          "profuseness",
+          "cornucopia"
+        ]
+      },
+      {
+        "sense_id": "oewn-richness__1.26.00..",
+        "definition": [
+          "abundant wealth"
+        ],
+        "examples": [
+          "they studied forerunners of richness or poverty",
+          "the richness all around unsettled him for he had expected to find poverty"
+        ],
+        "synonyms": [
+          "affluence"
+        ]
+      },
+      {
+        "sense_id": "oewn-richness__1.07.01..",
+        "definition": [
+          "the property of a sensation that is rich and pleasing"
+        ],
+        "examples": [
+          "the music had a fullness that echoed through the hall",
+          "the cheap wine had no body, no mellowness",
+          "he was well aware of the richness of his own appearance"
+        ],
+        "synonyms": [
+          "fullness",
+          "mellowness"
+        ]
+      },
+      {
+        "sense_id": "oewn-richness__1.07.05..",
+        "definition": [
+          "the quality of having high intrinsic value"
+        ],
+        "examples": [
+          "the richness of the mines and pastureland",
+          "the cut of her clothes and the richness of the fabric were distinctive"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-richness__1.07.02..",
+        "definition": [
+          "the property of producing abundantly and sustaining vigorous and luxuriant growth"
+        ],
+        "examples": [
+          "he praised the richness of the soil",
+          "weeds lovely in their rankness"
+        ],
+        "synonyms": [
+          "rankness",
+          "prolificacy",
+          "fertility"
+        ]
+      },
+      {
+        "sense_id": "oewn-richness__1.07.00..",
+        "definition": [
+          "a strong deep vividness of hue"
+        ],
+        "examples": [
+          "the fire-light gave a richness of coloring to that side of the room"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-richness__1.07.04..",
+        "definition": [
+          "splendid or imposing in size or appearance"
+        ],
+        "examples": [
+          "the grandness of the architecture",
+          "impressed by the richness of the flora"
+        ],
+        "synonyms": [
+          "impressiveness",
+          "grandness",
+          "magnificence"
+        ]
+      }
+    ],
+    "seasoning": [
+      {
+        "sense_id": "oewn-seasoning__1.13.00..",
+        "definition": [
+          "something added to food primarily for the savor it imparts"
+        ],
+        "examples": [],
+        "synonyms": [
+          "flavorer",
+          "flavourer",
+          "flavoring",
+          "flavouring",
+          "seasoner"
+        ]
+      },
+      {
+        "sense_id": "oewn-seasoning__1.04.00..",
+        "definition": [
+          "the act of adding a seasoning to food"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "white wine": [
+      {
+        "sense_id": "oewn-white_wine__1.13.00..",
+        "definition": [
+          "pale yellowish wine made from white grapes or red grapes with skins removed before fermentation"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "aromatic": [
+      {
+        "sense_id": "oewn-aromatic__3.01.00..",
+        "definition": [
+          "(chemistry) of or relating to or containing one or more benzene rings"
+        ],
+        "examples": [
+          "an aromatic organic compound"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-aromatic__5.00.00.fragrant.00",
+        "definition": [
+          "having a strong pleasant odor"
+        ],
+        "examples": [
+          "the pine woods were more redolent"
+        ],
+        "synonyms": [
+          "redolent"
+        ]
+      }
+    ],
+    "texture": [
+      {
+        "sense_id": "oewn-texture__1.07.00..",
+        "definition": [
+          "the feel of a surface or a fabric"
+        ],
+        "examples": [
+          "the wall had a smooth texture"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.09.00..",
+        "definition": [
+          "the essential quality of something"
+        ],
+        "examples": [
+          "the texture of Neapolitan life"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.02..",
+        "definition": [
+          "the musical pattern created by parts being played or sung together"
+        ],
+        "examples": [
+          "then another melodic line is added to the texture"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.01..",
+        "definition": [
+          "the characteristic appearance of a surface having a tactile quality"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.03..",
+        "definition": [
+          "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+        ],
+        "examples": [
+          "breadfruit has the same texture as bread",
+          "sand of a fine grain",
+          "fish with a delicate flavor and texture",
+          "a stone of coarse grain"
+        ],
+        "synonyms": [
+          "grain"
+        ]
+      }
+    ],
+    "culinary technique": [],
+    "homemade": [
+      {
+        "sense_id": "oewn-homemade__3.00.00..",
+        "definition": [
+          "made or produced in the home or by yourself"
+        ],
+        "examples": [
+          "homemade bread"
+        ],
+        "synonyms": []
+      }
+    ],
+    "plating": [
+      {
+        "sense_id": "oewn-plating__1.06.00..",
+        "definition": [
+          "a thin coating of metal deposited on a surface"
+        ],
+        "examples": [],
+        "synonyms": [
+          "metal plating"
+        ]
+      },
+      {
+        "sense_id": "oewn-plating__1.04.00..",
+        "definition": [
+          "the application of a thin coat of metal (as by electrolysis)"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "indulgent": [
+      {
+        "sense_id": "oewn-indulgent__3.00.00..",
+        "definition": [
+          "characterized by or given to yielding to the wishes of someone"
+        ],
+        "examples": [
+          "indulgent grandparents"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-indulgent__5.00.00.permissive.01",
+        "definition": [
+          "tolerant or lenient"
+        ],
+        "examples": [
+          "indulgent parents risk spoiling their children",
+          "too soft on the children",
+          "they are soft on crime"
+        ],
+        "synonyms": [
+          "lenient",
+          "soft"
+        ]
+      },
+      {
+        "sense_id": "oewn-indulgent__5.00.00.favorable.02",
+        "definition": [
+          "being favorably inclined"
+        ],
+        "examples": [
+          "an indulgent attitude"
+        ],
+        "synonyms": []
+      }
+    ],
+    "balanced": [
+      {
+        "sense_id": "oewn-balanced__3.00.00..",
+        "definition": [
+          "being in a state of proper equilibrium"
+        ],
+        "examples": [
+          "the carefully balanced seesaw",
+          "a properly balanced symphony orchestra",
+          "a balanced assessment of intellectual and cultural history",
+          "a balanced blend of whiskeys",
+          "the educated man shows a balanced development of all his powers"
+        ],
+        "synonyms": []
+      }
+    ],
+    "mouthfeel": []
+  },
+  "elapsed_seconds": 0.259
+}

@@ -1,0 +1,158 @@
+{
+  "run_id": "debf249b-d8aa-47e9-8e04-e8bbbb80e725",
+  "stage": "select_senses",
+  "captured_at": "2026-10-30T13:31:24.579390+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "prompt": "我在超市中买了海鲜混合装自己做奶油意大利面，这个烹饪和享用的过程有哪些值得学习的吗？",
+    "definitions": {
+      "seafood mix": [],
+      "heavy cream": [
+        "contains more than 36% butterfat"
+      ],
+      "al dente": [
+        "of pasta cooked so as to be firm when eaten"
+      ],
+      "sauté": [
+        "fried quickly in a little fat",
+        "a dish of sauteed food",
+        "fry briefly over high heat"
+      ],
+      "deglaze": [
+        "dissolve cooking juices or solid food in (a pan) by adding liquid and stirring"
+      ],
+      "garlic cloves": [],
+      "parmesan cheese": [],
+      "fresh parsley": [],
+      "simmer": [
+        "temperature just below the boiling point",
+        "boil slowly at low temperature"
+      ],
+      "emulsify": [
+        "cause to become an emulsion; make into an emulsion",
+        "form into or become an emulsion"
+      ],
+      "pasta water": [],
+      "searing": [
+        "severely critical"
+      ],
+      "flavor profile": [],
+      "garnish": [
+        "something (such as parsley) added to a dish for flavor or decoration",
+        "any decoration added as a trimming or adornment",
+        "take a debtor's wages on legal orders, such as for child support",
+        "decorate (food), as with parsley or other ornamental foods"
+      ],
+      "richness": [
+        "the property of being extremely abundant",
+        "abundant wealth",
+        "the property of a sensation that is rich and pleasing",
+        "the quality of having high intrinsic value",
+        "the property of producing abundantly and sustaining vigorous and luxuriant growth",
+        "a strong deep vividness of hue",
+        "splendid or imposing in size or appearance"
+      ],
+      "seasoning": [
+        "something added to food primarily for the savor it imparts",
+        "the act of adding a seasoning to food"
+      ],
+      "white wine": [
+        "pale yellowish wine made from white grapes or red grapes with skins removed before fermentation"
+      ],
+      "aromatic": [
+        "(chemistry) of or relating to or containing one or more benzene rings",
+        "having a strong pleasant odor"
+      ],
+      "texture": [
+        "the feel of a surface or a fabric",
+        "the essential quality of something",
+        "the musical pattern created by parts being played or sung together",
+        "the characteristic appearance of a surface having a tactile quality",
+        "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+      ],
+      "culinary technique": [],
+      "homemade": [
+        "made or produced in the home or by yourself"
+      ],
+      "plating": [
+        "a thin coating of metal deposited on a surface",
+        "the application of a thin coat of metal (as by electrolysis)"
+      ],
+      "indulgent": [
+        "characterized by or given to yielding to the wishes of someone",
+        "tolerant or lenient",
+        "being favorably inclined"
+      ],
+      "balanced": [
+        "being in a state of proper equilibrium"
+      ],
+      "mouthfeel": []
+    }
+  },
+  "output": {
+    "seafood mix": [],
+    "heavy cream": [
+      0
+    ],
+    "al dente": [
+      0
+    ],
+    "sauté": [
+      0,
+      2
+    ],
+    "deglaze": [
+      0
+    ],
+    "garlic cloves": [],
+    "parmesan cheese": [],
+    "fresh parsley": [],
+    "simmer": [
+      0,
+      1
+    ],
+    "emulsify": [
+      0,
+      1
+    ],
+    "pasta water": [],
+    "searing": [],
+    "flavor profile": [],
+    "garnish": [
+      0,
+      3
+    ],
+    "richness": [
+      2
+    ],
+    "seasoning": [
+      0,
+      1
+    ],
+    "white wine": [
+      0
+    ],
+    "aromatic": [
+      1
+    ],
+    "texture": [
+      0,
+      4
+    ],
+    "culinary technique": [],
+    "homemade": [
+      0
+    ],
+    "plating": [],
+    "indulgent": [
+      0
+    ],
+    "balanced": [
+      0
+    ],
+    "mouthfeel": []
+  },
+  "elapsed_seconds": 1.406
+}

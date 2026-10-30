@@ -1,0 +1,39 @@
+{
+  "run_id": "debf249b-d8aa-47e9-8e04-e8bbbb80e725",
+  "stage": "generate_vocabulary",
+  "captured_at": "2026-10-30T13:31:22.847447+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "prompt": "我在超市中买了海鲜混合装自己做奶油意大利面，这个烹饪和享用的过程有哪些值得学习的吗？"
+  },
+  "output": [
+    "seafood mix",
+    "heavy cream",
+    "al dente",
+    "sauté",
+    "deglaze",
+    "garlic cloves",
+    "parmesan cheese",
+    "fresh parsley",
+    "simmer",
+    "emulsify",
+    "pasta water",
+    "searing",
+    "flavor profile",
+    "garnish",
+    "richness",
+    "seasoning",
+    "white wine",
+    "aromatic",
+    "texture",
+    "culinary technique",
+    "homemade",
+    "plating",
+    "indulgent",
+    "balanced",
+    "mouthfeel"
+  ],
+  "elapsed_seconds": 1.471
+}

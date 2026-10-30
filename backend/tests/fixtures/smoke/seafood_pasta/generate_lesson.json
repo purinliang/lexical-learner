@@ -1,0 +1,545 @@
+{
+  "run_id": "debf249b-d8aa-47e9-8e04-e8bbbb80e725",
+  "stage": "generate_lesson",
+  "captured_at": "2026-10-30T13:31:22.847343+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "prompt": "我在超市中买了海鲜混合装自己做奶油意大利面，这个烹饪和享用的过程有哪些值得学习的吗？"
+  },
+  "output": {
+    "seafood mix": [],
+    "heavy cream": [
+      {
+        "sense_id": "oewn-heavy_cream__1.13.00..",
+        "definition": [
+          "contains more than 36% butterfat"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "浓奶油",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 27,
+            "sentence": "The recipe calls for a cup of heavy cream to create a luscious sauce.",
+            "answer": "heavy cream",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "al dente": [
+      {
+        "sense_id": "oewn-al_dente__5.00.00.hard.01",
+        "definition": [
+          "of pasta cooked so as to be firm when eaten"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "（意面）有咬劲的",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 28,
+            "sentence": "Make sure you boil the pasta until it is al dente so it does not turn mushy.",
+            "answer": "al dente",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "sauté": [
+      {
+        "sense_id": "oewn-saute__5.00.00.cooked.00",
+        "definition": [
+          "fried quickly in a little fat"
+        ],
+        "examples": [],
+        "synonyms": [
+          "sauteed"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "嫩煎的",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 29,
+            "sentence": "Serve the sauté mushrooms over a bed of fresh spinach.",
+            "answer": "sauté",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-saute__2.30.00..",
+        "definition": [
+          "fry briefly over high heat"
+        ],
+        "examples": [
+          "saute the onions"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "嫩煎",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 30,
+            "sentence": "You should sauté the onions until they become translucent and fragrant.",
+            "answer": "sauté",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "deglaze": [
+      {
+        "sense_id": "oewn-deglaze__2.36.00..",
+        "definition": [
+          "dissolve cooking juices or solid food in (a pan) by adding liquid and stirring"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "用液体洗净（煎锅）以溶解残留物",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 31,
+            "sentence": "After searing the steak, deglaze the pan with a splash of red wine to lift the flavorful brown bits.",
+            "answer": "deglaze",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "garlic cloves": [],
+    "parmesan cheese": [],
+    "fresh parsley": [],
+    "simmer": [
+      {
+        "sense_id": "oewn-simmer__1.07.00..",
+        "definition": [
+          "temperature just below the boiling point"
+        ],
+        "examples": [
+          "the stew remained at a simmer for hours"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "炖，煨（的状态）",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 32,
+            "sentence": "Keep the soup at a gentle simmer to ensure the vegetables cook evenly without breaking down.",
+            "answer": "simmer",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-simmer__2.30.00..",
+        "definition": [
+          "boil slowly at low temperature"
+        ],
+        "examples": [
+          "simmer the sauce",
+          "simmering water"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "文火慢炖",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 33,
+            "sentence": "Allow the sauce to simmer for twenty minutes to let the flavors fully develop.",
+            "answer": "simmer",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "emulsify": [
+      {
+        "sense_id": "oewn-emulsify__2.30.01..",
+        "definition": [
+          "cause to become an emulsion; make into an emulsion"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "使乳化",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 34,
+            "sentence": "Slowly whisk in the oil to emulsify the vinaigrette dressing.",
+            "answer": "emulsify",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-emulsify__2.30.00..",
+        "definition": [
+          "form into or become an emulsion"
+        ],
+        "examples": [
+          "The solution emulsified"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "乳化",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 35,
+            "sentence": "It takes patience to emulsify the butter into the wine reduction for a silky finish.",
+            "answer": "emulsify",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "pasta water": [],
+    "searing": [],
+    "flavor profile": [],
+    "garnish": [
+      {
+        "sense_id": "oewn-garnish__1.13.00..",
+        "definition": [
+          "something (such as parsley) added to a dish for flavor or decoration"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "装饰物（如欧芹）",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 36,
+            "sentence": "A simple parsley garnish adds a pop of color to the finished dish.",
+            "answer": "garnish",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-garnish__2.36.00..",
+        "definition": [
+          "decorate (food), as with parsley or other ornamental foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "trim",
+          "dress"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "装饰（食物）",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 37,
+            "sentence": "Use fresh chives to garnish the soup right before serving.",
+            "answer": "garnish",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "richness": [
+      {
+        "sense_id": "oewn-richness__1.07.01..",
+        "definition": [
+          "the property of a sensation that is rich and pleasing"
+        ],
+        "examples": [
+          "the music had a fullness that echoed through the hall",
+          "the cheap wine had no body, no mellowness",
+          "he was well aware of the richness of his own appearance"
+        ],
+        "synonyms": [
+          "fullness",
+          "mellowness"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "浓郁，丰富",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 38,
+            "sentence": "The chocolate cake is known for its incredible richness and smooth finish.",
+            "answer": "richness",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "seasoning": [
+      {
+        "sense_id": "oewn-seasoning__1.13.00..",
+        "definition": [
+          "something added to food primarily for the savor it imparts"
+        ],
+        "examples": [],
+        "synonyms": [
+          "flavorer",
+          "flavourer",
+          "flavoring",
+          "flavouring",
+          "seasoner"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "调味料",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 39,
+            "sentence": "Salt is the most essential seasoning for bringing out the natural taste of ingredients.",
+            "answer": "seasoning",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-seasoning__1.04.00..",
+        "definition": [
+          "the act of adding a seasoning to food"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "调味",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 40,
+            "sentence": "Careful seasoning of the meat before grilling makes all the difference in the final flavor.",
+            "answer": "seasoning",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "white wine": [
+      {
+        "sense_id": "oewn-white_wine__1.13.00..",
+        "definition": [
+          "pale yellowish wine made from white grapes or red grapes with skins removed before fermentation"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "白葡萄酒",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 41,
+            "sentence": "We used a crisp white wine to give the seafood pasta a bright, acidic note.",
+            "answer": "white wine",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "aromatic": [
+      {
+        "sense_id": "oewn-aromatic__5.00.00.fragrant.00",
+        "definition": [
+          "having a strong pleasant odor"
+        ],
+        "examples": [
+          "the pine woods were more redolent"
+        ],
+        "synonyms": [
+          "redolent"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "芳香的",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 42,
+            "sentence": "Fresh basil is an aromatic herb that elevates any tomato-based dish.",
+            "answer": "aromatic",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "texture": [
+      {
+        "sense_id": "oewn-texture__1.07.00..",
+        "definition": [
+          "the feel of a surface or a fabric"
+        ],
+        "examples": [
+          "the wall had a smooth texture"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "质地，手感",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 43,
+            "sentence": "The chef focused on achieving the perfect creamy texture for the risotto.",
+            "answer": "texture",
+            "source": "gemini"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-texture__1.07.03..",
+        "definition": [
+          "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+        ],
+        "examples": [
+          "breadfruit has the same texture as bread",
+          "sand of a fine grain",
+          "fish with a delicate flavor and texture",
+          "a stone of coarse grain"
+        ],
+        "synonyms": [
+          "grain"
+        ],
+        "translation": {
+          "language": "zh",
+          "translation": "物理结构",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 44,
+            "sentence": "The bread has a firm texture that is perfect for dipping into olive oil.",
+            "answer": "texture",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "culinary technique": [],
+    "homemade": [
+      {
+        "sense_id": "oewn-homemade__3.00.00..",
+        "definition": [
+          "made or produced in the home or by yourself"
+        ],
+        "examples": [
+          "homemade bread"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "自制的",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 45,
+            "sentence": "There is nothing better than the taste of fresh, homemade bread straight from the oven.",
+            "answer": "homemade",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "plating": [],
+    "indulgent": [
+      {
+        "sense_id": "oewn-indulgent__3.00.00..",
+        "definition": [
+          "characterized by or given to yielding to the wishes of someone"
+        ],
+        "examples": [
+          "indulgent grandparents"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "放纵的，沉溺的",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 46,
+            "sentence": "Enjoying an indulgent dessert after a long week is a well-deserved treat.",
+            "answer": "indulgent",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "balanced": [
+      {
+        "sense_id": "oewn-balanced__3.00.00..",
+        "definition": [
+          "being in a state of proper equilibrium"
+        ],
+        "examples": [
+          "the carefully balanced seesaw",
+          "a properly balanced symphony orchestra",
+          "a balanced assessment of intellectual and cultural history",
+          "a balanced blend of whiskeys",
+          "the educated man shows a balanced development of all his powers"
+        ],
+        "synonyms": [],
+        "translation": {
+          "language": "zh",
+          "translation": "均衡的",
+          "source": "gemini"
+        },
+        "clozes": [
+          {
+            "id": 47,
+            "sentence": "A balanced meal should include protein, healthy fats, and complex carbohydrates.",
+            "answer": "balanced",
+            "source": "gemini"
+          }
+        ]
+      }
+    ],
+    "mouthfeel": []
+  },
+  "elapsed_seconds": 8.351
+}

@@ -1,0 +1,205 @@
+{
+  "run_id": "c6d6023f-15f7-4d7a-abec-9a62a7bfb123",
+  "stage": "select_senses",
+  "captured_at": "2026-10-30T13:31:16.824285+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "prompt": "我准备要去参加驾考，可是我不太熟悉车上常用的零件怎么说。",
+    "definitions": {
+      "steering wheel": [
+        "a handwheel that is used for steering"
+      ],
+      "gear shift": [],
+      "accelerator": [
+        "a pedal that controls the throttle valve",
+        "a valve that regulates the supply of fuel to the engine",
+        "(chemistry) a substance that initiates or accelerates a chemical reaction without itself being affected",
+        "a scientific instrument that increases the kinetic energy of charged particles"
+      ],
+      "brake pedal": [
+        "foot pedal that moves a piston in the master brake cylinder"
+      ],
+      "clutch": [
+        "the act of grasping",
+        "a tense critical situation",
+        "a number of birds hatched at the same time",
+        "a collection of things or persons to be handled together",
+        "a woman's strapless purse that is carried in the hand",
+        "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism",
+        "a coupling that connects or disconnects driving and driven parts of a driving mechanism",
+        "take into your hands deliberately",
+        "hold firmly, usually with one's hands",
+        "affect"
+      ],
+      "handbrake": [],
+      "turn signal": [
+        "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
+      ],
+      "headlights": [],
+      "windshield wipers": [],
+      "rearview mirror": [
+        "car mirror that reflects the view out of the rear window"
+      ],
+      "side mirror": [],
+      "seatbelt": [
+        "a safety belt used in a car or plane to hold you in your seat in case of an accident"
+      ],
+      "ignition": [
+        "the process of initiating combustion or catching fire",
+        "the mechanism that ignites the fuel in an internal-combustion engine",
+        "the act of setting something on fire"
+      ],
+      "dashboard": [
+        "protective covering consisting of a panel to protect people from the splashing water or mud etc.",
+        "instrument panel on an automobile or airplane containing dials and controls"
+      ],
+      "hazard lights": [],
+      "high beam": [
+        "the beam of a car's headlights that provides distant illumination"
+      ],
+      "horn": [
+        "a noisemaker (as at parties or games) that makes a loud noise when you blow through it",
+        "one of the bony outgrowths on the heads of certain ungulates",
+        "a noise made by the driver of an automobile to give warning",
+        "a high pommel of a Western saddle (usually metal covered with leather)",
+        "a brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves",
+        "any hard protuberance from the head of an organism that is similar to or suggestive of a horn",
+        "the material (mostly keratin) that covers the horns of ungulates and forms hooves and claws and nails",
+        "a device having the shape of a horn",
+        "an alarm device that makes a loud warning sound",
+        "a brass musical instrument consisting of a conical tube that is coiled into a spiral and played by means of valves",
+        "a device on an automobile for making a warning noise",
+        "stab or pierce with a horn or tusk"
+      ],
+      "glove compartment": [
+        "compartment on the dashboard of a car"
+      ],
+      "trunk": [
+        "the main stem of a tree; usually covered with bark; the bole is usually the part that is commercially useful for lumber",
+        "luggage consisting of a large strong case used when traveling or for storage",
+        "the body excluding the head and neck and limbs",
+        "compartment in an automobile that carries luggage or shopping or tools",
+        "a long flexible snout as of an elephant"
+      ],
+      "hood": [
+        "an aggressive and violent young criminal",
+        "a protective covering that is part of a plant",
+        "an urban, often lower-income inner-city area",
+        "a tubular attachment used to keep stray light out of the lens of a camera",
+        "(falconry) a leather covering for a hawk's head",
+        "metal covering leading to a vent that exhausts smoke or fumes",
+        "the folding roof of a carriage",
+        "a headdress that protects the head and face",
+        "protective covering consisting of a metal part that covers the engine",
+        "(zoology) an expandable part or marking that resembles a hood on the head or neck of an animal",
+        "cover with a hood"
+      ],
+      "blind spot": [
+        "a subject about which you are ignorant or prejudiced and fail to exercise good judgment",
+        "the point where the optic nerve enters the retina; not sensitive to light"
+      ],
+      "blind spot monitoring": [],
+      "reverse gear": [
+        "the gears by which the motion of a machine can be reversed"
+      ],
+      "neutral": [
+        "having no personal preference",
+        "having only a limited ability to react chemically; chemically inactive",
+        "not supporting or favoring either side in a war, dispute, or contest",
+        "possessing no distinctive quality or characteristics",
+        "having no hue",
+        "lacking distinguishing quality or characteristics",
+        "having no net electric charge",
+        "one who does not side with any party in a war or dispute"
+      ],
+      "blind spot mirror": [],
+      "child safety lock": [],
+      "defroster": [
+        "heater that removes ice or frost (as from a windshield or a refrigerator or the wings of an airplane)"
+      ],
+      "fuel gauge": [
+        "an indicator of the amount of fuel remaining in a vehicle"
+      ],
+      "speedometer": [
+        "a meter fixed to a vehicle that measures and displays its speed"
+      ]
+    }
+  },
+  "output": {
+    "steering wheel": [
+      0
+    ],
+    "gear shift": [],
+    "accelerator": [
+      0,
+      1
+    ],
+    "brake pedal": [
+      0
+    ],
+    "clutch": [
+      5,
+      6
+    ],
+    "handbrake": [],
+    "turn signal": [
+      0
+    ],
+    "headlights": [],
+    "windshield wipers": [],
+    "rearview mirror": [
+      0
+    ],
+    "side mirror": [],
+    "seatbelt": [
+      0
+    ],
+    "ignition": [
+      1
+    ],
+    "dashboard": [
+      1
+    ],
+    "hazard lights": [],
+    "high beam": [
+      0
+    ],
+    "horn": [
+      2,
+      8,
+      10
+    ],
+    "glove compartment": [
+      0
+    ],
+    "trunk": [
+      3
+    ],
+    "hood": [
+      5,
+      8
+    ],
+    "blind spot": [
+      1
+    ],
+    "blind spot monitoring": [],
+    "reverse gear": [
+      0
+    ],
+    "neutral": [],
+    "blind spot mirror": [],
+    "child safety lock": [],
+    "defroster": [
+      0
+    ],
+    "fuel gauge": [
+      0
+    ],
+    "speedometer": [
+      0
+    ]
+  },
+  "elapsed_seconds": 2.563
+}

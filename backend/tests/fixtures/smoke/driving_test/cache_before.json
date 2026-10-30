@@ -1,0 +1,243 @@
+{
+  "run_id": "b5788797-65a3-4b6f-bacd-61a7dbc11382",
+  "stage": "cache_before",
+  "captured_at": "2026-10-30T13:31:10.688829+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "lesson": {
+      "steering wheel": [
+        {
+          "sense_id": "oewn-steering_wheel__1.06.00..",
+          "definition": [
+            "a handwheel that is used for steering"
+          ],
+          "examples": [],
+          "synonyms": [
+            "wheel"
+          ]
+        }
+      ],
+      "dashboard": [
+        {
+          "sense_id": "oewn-dashboard__1.06.00..",
+          "definition": [
+            "instrument panel on an automobile or airplane containing dials and controls"
+          ],
+          "examples": [],
+          "synonyms": [
+            "fascia"
+          ]
+        }
+      ],
+      "gear shift": [],
+      "accelerator": [
+        {
+          "sense_id": "oewn-accelerator__1.06.02..",
+          "definition": [
+            "a pedal that controls the throttle valve"
+          ],
+          "examples": [
+            "he stepped on the gas"
+          ],
+          "synonyms": [
+            "accelerator pedal",
+            "gas pedal",
+            "gas",
+            "throttle",
+            "gun"
+          ]
+        },
+        {
+          "sense_id": "oewn-accelerator__1.06.00..",
+          "definition": [
+            "a valve that regulates the supply of fuel to the engine"
+          ],
+          "examples": [],
+          "synonyms": [
+            "throttle",
+            "throttle valve"
+          ]
+        }
+      ],
+      "brake pedal": [
+        {
+          "sense_id": "oewn-brake_pedal__1.06.00..",
+          "definition": [
+            "foot pedal that moves a piston in the master brake cylinder"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "clutch": [
+        {
+          "sense_id": "oewn-clutch__1.06.01..",
+          "definition": [
+            "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism"
+          ],
+          "examples": [
+            "he smoothly released the clutch with one foot and stepped on the gas with the other"
+          ],
+          "synonyms": [
+            "clutch pedal"
+          ]
+        },
+        {
+          "sense_id": "oewn-clutch__1.06.00..",
+          "definition": [
+            "a coupling that connects or disconnects driving and driven parts of a driving mechanism"
+          ],
+          "examples": [
+            "this year's model has an improved clutch"
+          ],
+          "synonyms": []
+        }
+      ],
+      "rearview mirror": [
+        {
+          "sense_id": "oewn-rearview_mirror__1.06.00..",
+          "definition": [
+            "car mirror that reflects the view out of the rear window"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "side mirror": [],
+      "turn signal": [
+        {
+          "sense_id": "oewn-turn_signal__1.10.00..",
+          "definition": [
+            "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
+          ],
+          "examples": [],
+          "synonyms": [
+            "blinker",
+            "turn indicator",
+            "trafficator"
+          ]
+        }
+      ],
+      "headlights": [],
+      "windshield wipers": [],
+      "handbrake": [],
+      "seatbelt": [
+        {
+          "sense_id": "oewn-seatbelt__1.06.00..",
+          "definition": [
+            "a safety belt used in a car or plane to hold you in your seat in case of an accident"
+          ],
+          "examples": [],
+          "synonyms": [
+            "seat belt"
+          ]
+        }
+      ],
+      "hazard lights": [],
+      "ignition": [
+        {
+          "sense_id": "oewn-ignition__1.06.00..",
+          "definition": [
+            "the mechanism that ignites the fuel in an internal-combustion engine"
+          ],
+          "examples": [],
+          "synonyms": [
+            "ignition system"
+          ]
+        }
+      ],
+      "glove box": [],
+      "blind spot": [],
+      "trunk": [
+        {
+          "sense_id": "oewn-trunk__1.06.01..",
+          "definition": [
+            "compartment in an automobile that carries luggage or shopping or tools"
+          ],
+          "examples": [
+            "he put his golf bag in the trunk"
+          ],
+          "synonyms": [
+            "luggage compartment",
+            "automobile trunk",
+            "boot"
+          ]
+        }
+      ],
+      "hood": [
+        {
+          "sense_id": "oewn-hood__1.06.00..",
+          "definition": [
+            "protective covering consisting of a metal part that covers the engine"
+          ],
+          "examples": [
+            "there are powerful engines under the hoods of new cars",
+            "the mechanic removed the cowling in order to repair the plane's engine"
+          ],
+          "synonyms": [
+            "bonnet",
+            "cowl",
+            "cowling"
+          ]
+        }
+      ],
+      "engine": [
+        {
+          "sense_id": "oewn-engine__1.06.00..",
+          "definition": [
+            "motor that converts thermal energy to mechanical work"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "tire pressure": [],
+      "speedometer": [
+        {
+          "sense_id": "oewn-speedometer__1.06.00..",
+          "definition": [
+            "a meter fixed to a vehicle that measures and displays its speed"
+          ],
+          "examples": [],
+          "synonyms": [
+            "speed indicator"
+          ]
+        }
+      ],
+      "fuel gauge": [
+        {
+          "sense_id": "oewn-fuel_gauge__1.06.00..",
+          "definition": [
+            "an indicator of the amount of fuel remaining in a vehicle"
+          ],
+          "examples": [],
+          "synonyms": [
+            "fuel indicator"
+          ]
+        }
+      ],
+      "rear defrost": [],
+      "air conditioning": [
+        {
+          "sense_id": "oewn-air_conditioning__1.06.00..",
+          "definition": [
+            "a system that keeps air cool and dry"
+          ],
+          "examples": [],
+          "synonyms": [
+            "air conditioner"
+          ]
+        }
+      ]
+    },
+    "language": "zh",
+    "source": "gemini"
+  },
+  "output": {
+    "translations": {},
+    "clozes": {}
+  },
+  "elapsed_seconds": 0.022
+}

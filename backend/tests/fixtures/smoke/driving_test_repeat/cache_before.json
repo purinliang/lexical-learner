@@ -1,0 +1,516 @@
+{
+  "run_id": "c6d6023f-15f7-4d7a-abec-9a62a7bfb123",
+  "stage": "cache_before",
+  "captured_at": "2026-10-30T13:31:19.388595+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "dictionary": "oewn:2025",
+  "database": "PostgreSQL (real)",
+  "input": {
+    "lesson": {
+      "steering wheel": [
+        {
+          "sense_id": "oewn-steering_wheel__1.06.00..",
+          "definition": [
+            "a handwheel that is used for steering"
+          ],
+          "examples": [],
+          "synonyms": [
+            "wheel"
+          ]
+        }
+      ],
+      "gear shift": [],
+      "accelerator": [
+        {
+          "sense_id": "oewn-accelerator__1.06.02..",
+          "definition": [
+            "a pedal that controls the throttle valve"
+          ],
+          "examples": [
+            "he stepped on the gas"
+          ],
+          "synonyms": [
+            "accelerator pedal",
+            "gas pedal",
+            "gas",
+            "throttle",
+            "gun"
+          ]
+        },
+        {
+          "sense_id": "oewn-accelerator__1.06.00..",
+          "definition": [
+            "a valve that regulates the supply of fuel to the engine"
+          ],
+          "examples": [],
+          "synonyms": [
+            "throttle",
+            "throttle valve"
+          ]
+        }
+      ],
+      "brake pedal": [
+        {
+          "sense_id": "oewn-brake_pedal__1.06.00..",
+          "definition": [
+            "foot pedal that moves a piston in the master brake cylinder"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "clutch": [
+        {
+          "sense_id": "oewn-clutch__1.06.01..",
+          "definition": [
+            "a pedal or lever that engages or disengages a rotating shaft and a driving mechanism"
+          ],
+          "examples": [
+            "he smoothly released the clutch with one foot and stepped on the gas with the other"
+          ],
+          "synonyms": [
+            "clutch pedal"
+          ]
+        },
+        {
+          "sense_id": "oewn-clutch__1.06.00..",
+          "definition": [
+            "a coupling that connects or disconnects driving and driven parts of a driving mechanism"
+          ],
+          "examples": [
+            "this year's model has an improved clutch"
+          ],
+          "synonyms": []
+        }
+      ],
+      "handbrake": [],
+      "turn signal": [
+        {
+          "sense_id": "oewn-turn_signal__1.10.00..",
+          "definition": [
+            "a blinking light on a motor vehicle that indicates the direction in which the vehicle is about to turn"
+          ],
+          "examples": [],
+          "synonyms": [
+            "blinker",
+            "turn indicator",
+            "trafficator"
+          ]
+        }
+      ],
+      "headlights": [],
+      "windshield wipers": [],
+      "rearview mirror": [
+        {
+          "sense_id": "oewn-rearview_mirror__1.06.00..",
+          "definition": [
+            "car mirror that reflects the view out of the rear window"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "side mirror": [],
+      "seatbelt": [
+        {
+          "sense_id": "oewn-seatbelt__1.06.00..",
+          "definition": [
+            "a safety belt used in a car or plane to hold you in your seat in case of an accident"
+          ],
+          "examples": [],
+          "synonyms": [
+            "seat belt"
+          ]
+        }
+      ],
+      "ignition": [
+        {
+          "sense_id": "oewn-ignition__1.06.00..",
+          "definition": [
+            "the mechanism that ignites the fuel in an internal-combustion engine"
+          ],
+          "examples": [],
+          "synonyms": [
+            "ignition system"
+          ]
+        }
+      ],
+      "dashboard": [
+        {
+          "sense_id": "oewn-dashboard__1.06.00..",
+          "definition": [
+            "instrument panel on an automobile or airplane containing dials and controls"
+          ],
+          "examples": [],
+          "synonyms": [
+            "fascia"
+          ]
+        }
+      ],
+      "hazard lights": [],
+      "high beam": [
+        {
+          "sense_id": "oewn-high_beam__1.19.00..",
+          "definition": [
+            "the beam of a car's headlights that provides distant illumination"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "horn": [
+        {
+          "sense_id": "oewn-horn__1.10.02..",
+          "definition": [
+            "a noise made by the driver of an automobile to give warning"
+          ],
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "sense_id": "oewn-horn__1.06.03..",
+          "definition": [
+            "an alarm device that makes a loud warning sound"
+          ],
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "sense_id": "oewn-horn__1.06.05..",
+          "definition": [
+            "a device on an automobile for making a warning noise"
+          ],
+          "examples": [],
+          "synonyms": [
+            "automobile horn",
+            "car horn",
+            "motor horn",
+            "hooter"
+          ]
+        }
+      ],
+      "glove compartment": [
+        {
+          "sense_id": "oewn-glove_compartment__1.06.00..",
+          "definition": [
+            "compartment on the dashboard of a car"
+          ],
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "trunk": [
+        {
+          "sense_id": "oewn-trunk__1.06.01..",
+          "definition": [
+            "compartment in an automobile that carries luggage or shopping or tools"
+          ],
+          "examples": [
+            "he put his golf bag in the trunk"
+          ],
+          "synonyms": [
+            "luggage compartment",
+            "automobile trunk",
+            "boot"
+          ]
+        }
+      ],
+      "hood": [
+        {
+          "sense_id": "oewn-hood__1.06.04..",
+          "definition": [
+            "metal covering leading to a vent that exhausts smoke or fumes"
+          ],
+          "examples": [],
+          "synonyms": [
+            "exhaust hood"
+          ]
+        },
+        {
+          "sense_id": "oewn-hood__1.06.00..",
+          "definition": [
+            "protective covering consisting of a metal part that covers the engine"
+          ],
+          "examples": [
+            "there are powerful engines under the hoods of new cars",
+            "the mechanic removed the cowling in order to repair the plane's engine"
+          ],
+          "synonyms": [
+            "bonnet",
+            "cowl",
+            "cowling"
+          ]
+        }
+      ],
+      "blind spot": [
+        {
+          "sense_id": "oewn-blind_spot__1.08.00..",
+          "definition": [
+            "the point where the optic nerve enters the retina; not sensitive to light"
+          ],
+          "examples": [],
+          "synonyms": [
+            "optic disc",
+            "optic disk"
+          ]
+        }
+      ],
+      "blind spot monitoring": [],
+      "reverse gear": [
+        {
+          "sense_id": "oewn-reverse_gear__1.06.00..",
+          "definition": [
+            "the gears by which the motion of a machine can be reversed"
+          ],
+          "examples": [],
+          "synonyms": [
+            "reverse"
+          ]
+        }
+      ],
+      "neutral": [],
+      "blind spot mirror": [],
+      "child safety lock": [],
+      "defroster": [
+        {
+          "sense_id": "oewn-defroster__1.06.00..",
+          "definition": [
+            "heater that removes ice or frost (as from a windshield or a refrigerator or the wings of an airplane)"
+          ],
+          "examples": [],
+          "synonyms": [
+            "deicer"
+          ]
+        }
+      ],
+      "fuel gauge": [
+        {
+          "sense_id": "oewn-fuel_gauge__1.06.00..",
+          "definition": [
+            "an indicator of the amount of fuel remaining in a vehicle"
+          ],
+          "examples": [],
+          "synonyms": [
+            "fuel indicator"
+          ]
+        }
+      ],
+      "speedometer": [
+        {
+          "sense_id": "oewn-speedometer__1.06.00..",
+          "definition": [
+            "a meter fixed to a vehicle that measures and displays its speed"
+          ],
+          "examples": [],
+          "synonyms": [
+            "speed indicator"
+          ]
+        }
+      ]
+    },
+    "language": "zh",
+    "source": "gemini"
+  },
+  "output": {
+    "translations": {
+      "oewn-accelerator__1.06.00..": {
+        "language": "zh",
+        "translation": "节流阀",
+        "source": "gemini"
+      },
+      "oewn-accelerator__1.06.02..": {
+        "language": "zh",
+        "translation": "加速踏板",
+        "source": "gemini"
+      },
+      "oewn-brake_pedal__1.06.00..": {
+        "language": "zh",
+        "translation": "刹车踏板",
+        "source": "gemini"
+      },
+      "oewn-clutch__1.06.00..": {
+        "language": "zh",
+        "translation": "离合器",
+        "source": "gemini"
+      },
+      "oewn-clutch__1.06.01..": {
+        "language": "zh",
+        "translation": "离合器踏板",
+        "source": "gemini"
+      },
+      "oewn-dashboard__1.06.00..": {
+        "language": "zh",
+        "translation": "仪表板",
+        "source": "gemini"
+      },
+      "oewn-fuel_gauge__1.06.00..": {
+        "language": "zh",
+        "translation": "燃油表",
+        "source": "gemini"
+      },
+      "oewn-hood__1.06.00..": {
+        "language": "zh",
+        "translation": "引擎盖",
+        "source": "gemini"
+      },
+      "oewn-ignition__1.06.00..": {
+        "language": "zh",
+        "translation": "点火装置",
+        "source": "gemini"
+      },
+      "oewn-rearview_mirror__1.06.00..": {
+        "language": "zh",
+        "translation": "后视镜",
+        "source": "gemini"
+      },
+      "oewn-seatbelt__1.06.00..": {
+        "language": "zh",
+        "translation": "安全带",
+        "source": "gemini"
+      },
+      "oewn-speedometer__1.06.00..": {
+        "language": "zh",
+        "translation": "速度计",
+        "source": "gemini"
+      },
+      "oewn-steering_wheel__1.06.00..": {
+        "language": "zh",
+        "translation": "方向盘",
+        "source": "gemini"
+      },
+      "oewn-trunk__1.06.01..": {
+        "language": "zh",
+        "translation": "后备箱",
+        "source": "gemini"
+      },
+      "oewn-turn_signal__1.10.00..": {
+        "language": "zh",
+        "translation": "转向灯",
+        "source": "gemini"
+      }
+    },
+    "clozes": {
+      "oewn-steering_wheel__1.06.00..": [
+        {
+          "id": 1,
+          "sentence": "He kept both hands on the steering wheel while driving along the winding road.",
+          "answer": "steering wheel",
+          "source": "gemini"
+        }
+      ],
+      "oewn-dashboard__1.06.00..": [
+        {
+          "id": 2,
+          "sentence": "The driver glanced at the dashboard to check the warning lights.",
+          "answer": "dashboard",
+          "source": "gemini"
+        }
+      ],
+      "oewn-accelerator__1.06.02..": [
+        {
+          "id": 3,
+          "sentence": "She pressed the accelerator to increase the speed of the car.",
+          "answer": "accelerator",
+          "source": "gemini"
+        }
+      ],
+      "oewn-accelerator__1.06.00..": [
+        {
+          "id": 4,
+          "sentence": "The engine was idling poorly because of a faulty accelerator.",
+          "answer": "accelerator",
+          "source": "gemini"
+        }
+      ],
+      "oewn-brake_pedal__1.06.00..": [
+        {
+          "id": 5,
+          "sentence": "He stomped on the brake pedal when the car in front suddenly stopped.",
+          "answer": "brake pedal",
+          "source": "gemini"
+        }
+      ],
+      "oewn-clutch__1.06.01..": [
+        {
+          "id": 6,
+          "sentence": "Remember to push in the clutch before you try to shift gears.",
+          "answer": "clutch",
+          "source": "gemini"
+        }
+      ],
+      "oewn-clutch__1.06.00..": [
+        {
+          "id": 7,
+          "sentence": "The car would not move because the clutch was slipping.",
+          "answer": "clutch",
+          "source": "gemini"
+        }
+      ],
+      "oewn-rearview_mirror__1.06.00..": [
+        {
+          "id": 8,
+          "sentence": "She checked her rearview mirror before changing lanes on the highway.",
+          "answer": "rearview mirror",
+          "source": "gemini"
+        }
+      ],
+      "oewn-turn_signal__1.10.00..": [
+        {
+          "id": 9,
+          "sentence": "Don't forget to use your turn signal before making a right turn.",
+          "answer": "turn signal",
+          "source": "gemini"
+        }
+      ],
+      "oewn-seatbelt__1.06.00..": [
+        {
+          "id": 10,
+          "sentence": "Make sure to fasten your seatbelt before the vehicle starts moving.",
+          "answer": "seatbelt",
+          "source": "gemini"
+        }
+      ],
+      "oewn-ignition__1.06.00..": [
+        {
+          "id": 11,
+          "sentence": "The car failed to start because the ignition was damaged.",
+          "answer": "ignition",
+          "source": "gemini"
+        }
+      ],
+      "oewn-trunk__1.06.01..": [
+        {
+          "id": 12,
+          "sentence": "We put all our suitcases in the trunk before heading to the airport.",
+          "answer": "trunk",
+          "source": "gemini"
+        }
+      ],
+      "oewn-hood__1.06.00..": [
+        {
+          "id": 13,
+          "sentence": "He popped the hood to inspect the engine after noticing some smoke.",
+          "answer": "hood",
+          "source": "gemini"
+        }
+      ],
+      "oewn-speedometer__1.06.00..": [
+        {
+          "id": 15,
+          "sentence": "The speedometer showed that he was driving well over the speed limit.",
+          "answer": "speedometer",
+          "source": "gemini"
+        }
+      ],
+      "oewn-fuel_gauge__1.06.00..": [
+        {
+          "id": 16,
+          "sentence": "According to the fuel gauge, we only have enough gas to drive another twenty miles.",
+          "answer": "fuel gauge",
+          "source": "gemini"
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.035
+}
