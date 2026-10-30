@@ -1,0 +1,11 @@
+# Local credentials (keep the configuration template)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+
+# Python and pytest caches
+__pycache__/
+.pytest_cache/

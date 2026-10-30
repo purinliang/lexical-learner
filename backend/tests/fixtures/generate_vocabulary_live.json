@@ -1,0 +1,35 @@
+{
+  "provider": "Google",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T06:00:06.828915+00:00",
+  "input": {
+    "prompt": "我准备要去参加驾考，可是我不太熟悉车上常用的零件怎么说。"
+  },
+  "output": [
+    "steering wheel",
+    "brake pedal",
+    "accelerator",
+    "clutch",
+    "gear shift",
+    "handbrake",
+    "rearview mirror",
+    "side mirror",
+    "turn signal",
+    "headlights",
+    "windshield wipers",
+    "seat belt",
+    "dashboard",
+    "ignition",
+    "hazard lights",
+    "blind spot",
+    "glove compartment",
+    "trunk",
+    "hood",
+    "tire pressure",
+    "speedometer",
+    "fuel gauge",
+    "air conditioning",
+    "horn",
+    "defroster"
+  ]
+}

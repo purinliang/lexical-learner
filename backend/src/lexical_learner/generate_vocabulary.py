@@ -1,0 +1,39 @@
+# generate_vocabulary.py
+import json
+
+from langchain_core.messages import HumanMessage, SystemMessage
+
+from lexical_learner.llm import create_model
+
+
+def generate_vocabulary(prompt: str) -> list[str]:
+    if len(prompt.encode("utf-8")) > 1024:
+        return []
+
+    model = create_model()
+
+    response = model.invoke(
+        [
+            SystemMessage(
+                content=(
+                    "Generate useful English words and phrases relevant to "
+                    "the user's scenario. Prioritize practical vocabulary, "
+                    "without forcing a minimum number of items. "
+                    "Return only a JSON array of at most 30 strings."
+                )
+            ),
+            HumanMessage(content=prompt),
+        ],
+        response_mime_type="application/json",
+        response_schema={
+            "type": "array",
+            "items": {"type": "string"},
+        },
+    )
+
+    words = json.loads(response.text)
+    if not isinstance(words, list) or any(
+        not isinstance(word, str) or not word.strip() for word in words
+    ):
+        raise ValueError("Expected a JSON array of non-empty strings")
+    return words[:30]
