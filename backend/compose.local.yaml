@@ -1,0 +1,22 @@
+# Local development only; production connects directly to Neon.
+services:
+  postgres:
+    image: postgres:17
+    container_name: lexical-postgres
+    environment:
+      POSTGRES_USER: lexical-learner
+      POSTGRES_PASSWORD: lexical-learner
+      POSTGRES_DB: lexical-learner
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - lexical_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lexical-learner -d lexical-learner"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+volumes:
+  lexical_pgdata:
+    name: lexical_pgdata
