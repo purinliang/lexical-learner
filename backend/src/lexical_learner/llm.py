@@ -1,4 +1,6 @@
-# llm.py
+# backend/src/lexical_learner/llm.py
+# Create the Gemini client from environment variables with retries disabled.
+
 import os
 
 from langchain_google_genai import ChatGoogleGenerativeAI

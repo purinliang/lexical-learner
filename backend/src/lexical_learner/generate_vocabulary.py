@@ -1,4 +1,7 @@
-# generate_vocabulary.py
+# backend/src/lexical_learner/generate_vocabulary.py
+# Generate up to 30 English words or phrases for a user-provided scenario.
+# I/O fixture: backend/tests/fixtures/generate_vocabulary_live.json
+
 import json
 
 from langchain_core.messages import HumanMessage, SystemMessage
