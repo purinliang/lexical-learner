@@ -22,6 +22,11 @@ def generate_vocabulary(prompt: str) -> list[str]:
                     "Generate useful English words and phrases relevant to "
                     "the user's scenario. Prioritize practical vocabulary, "
                     "without forcing a minimum number of items. "
+                    "Prefer dictionary headwords: base verbs, singular nouns and adjectives. "
+                    "Keep established terms such as black pepper or air fryer, but avoid loose "
+                    "descriptive combinations such as fresh parsley; use parsley instead. "
+                    "Include practical associated ingredients, seasonings, actions, tools, "
+                    "textures and colours when relevant, including reasonably implied concepts. "
                     "Return only a JSON array of at most 30 strings."
                 )
             ),

@@ -1,0 +1,31 @@
+{
+  "run_id": "73aa7ff4-9d3d-4121-8df6-7359056d84f7",
+  "stage": "summary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:54.464234+00:00",
+  "input": {},
+  "output": {
+    "scenario": "air_fryer_chicken_wings",
+    "candidate_count": 16,
+    "selected_words": 3,
+    "selected_senses": 5,
+    "not_found": [
+      "deepen the flavor",
+      "even cooking",
+      "air fryer",
+      "crispy skin",
+      "prep work",
+      "seasoning penetration",
+      "thoroughly cooked",
+      "golden brown",
+      "bone-in",
+      "cut marks",
+      "quicker cooking"
+    ],
+    "no_matching_sense": [
+      "tender",
+      "juicy"
+    ]
+  },
+  "elapsed_seconds": 0.0
+}

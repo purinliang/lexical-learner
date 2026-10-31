@@ -1,0 +1,223 @@
+{
+  "run_id": "73aa7ff4-9d3d-4121-8df6-7359056d84f7",
+  "stage": "linked_senses",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:54.449478+00:00",
+  "input": {
+    "selected": {
+      "score": [
+        {
+          "index": 7,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 12,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "marinate": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "deepen the flavor": [],
+      "even cooking": [],
+      "air fryer": [],
+      "crispy skin": [],
+      "tender": [],
+      "prep work": [],
+      "slash": [
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 6,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "seasoning penetration": [],
+      "thoroughly cooked": [],
+      "golden brown": [],
+      "juicy": [],
+      "bone-in": [],
+      "cut marks": [],
+      "quicker cooking": []
+    }
+  },
+  "output": {
+    "score": [
+      {
+        "sense_id": "oewn-score__1.25.00..",
+        "definition": [
+          "a slight surface cut (especially a notch that is made to keep a tally)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scotch"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.35.00..",
+        "definition": [
+          "make small marks into the surface of"
+        ],
+        "examples": [
+          "score the clay before firing it"
+        ],
+        "synonyms": [
+          "nock",
+          "mark"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "marinate": [
+      {
+        "sense_id": "oewn-marinate__2.30.00..",
+        "definition": [
+          "soak in marinade"
+        ],
+        "examples": [
+          "marinade herring"
+        ],
+        "synonyms": [
+          "marinade"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "deepen the flavor": [],
+    "even cooking": [],
+    "air fryer": [],
+    "crispy skin": [],
+    "tender": [],
+    "prep work": [],
+    "slash": [
+      {
+        "sense_id": "oewn-slash__1.04.00..",
+        "definition": [
+          "a strong sweeping cut made with a sharp instrument"
+        ],
+        "examples": [],
+        "synonyms": [
+          "gash"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__2.35.00..",
+        "definition": [
+          "cut open"
+        ],
+        "examples": [
+          "she slashed her wrists"
+        ],
+        "synonyms": [
+          "gash"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "seasoning penetration": [],
+    "thoroughly cooked": [],
+    "golden brown": [],
+    "juicy": [],
+    "bone-in": [],
+    "cut marks": [],
+    "quicker cooking": []
+  },
+  "elapsed_seconds": 0.0
+}

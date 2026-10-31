@@ -1,0 +1,32 @@
+{
+  "run_id": "198c6c3a-33fd-490e-942a-83aa009ae4c6",
+  "stage": "generate_vocabulary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:47:59.152692+00:00",
+  "input": {
+    "prompt": "在鸡翅表面上划两刀，可以加速腌制的速度，后续使用空气炸锅炸鸡翅的时候也更容易熟得均匀。"
+  },
+  "output": [
+    "chicken wing",
+    "score",
+    "marinate",
+    "air fryer",
+    "crispy",
+    "golden",
+    "seasoning",
+    "soy sauce",
+    "garlic",
+    "ginger",
+    "honey",
+    "salt",
+    "black pepper",
+    "cooking oil",
+    "texture",
+    "tender",
+    "even",
+    "thoroughly",
+    "preheat",
+    "flip"
+  ],
+  "elapsed_seconds": 1.522
+}

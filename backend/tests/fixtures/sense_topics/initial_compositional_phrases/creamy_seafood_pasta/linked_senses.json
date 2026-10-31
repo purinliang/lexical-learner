@@ -1,0 +1,310 @@
+{
+  "run_id": "cc6ffd7d-ff7d-447b-b495-3ddd91b9c647",
+  "stage": "linked_senses",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:50.095593+00:00",
+  "input": {
+    "selected": {
+      "al dente": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking",
+            "food-dishes"
+          ]
+        }
+      ],
+      "creamy seafood pasta": [],
+      "fresh parsley": [],
+      "cracked black pepper": [],
+      "boil until tender": [],
+      "cooking time": [],
+      "pasta texture": [],
+      "garnish": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients",
+            "food-dining"
+          ]
+        },
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking",
+            "food-dining"
+          ]
+        }
+      ],
+      "flavor profile": [],
+      "sauce consistency": [],
+      "simmer": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "culinary technique": [],
+      "perfectly cooked": [],
+      "mouthfeel": [],
+      "pasta water": [],
+      "gourmet presentation": [],
+      "incorporate": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 2,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "plating": []
+    }
+  },
+  "output": {
+    "al dente": [
+      {
+        "sense_id": "oewn-al_dente__5.00.00.hard.01",
+        "definition": [
+          "of pasta cooked so as to be firm when eaten"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          },
+          {
+            "id": "food-dishes",
+            "name": "Dishes",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "creamy seafood pasta": [],
+    "fresh parsley": [],
+    "cracked black pepper": [],
+    "boil until tender": [],
+    "cooking time": [],
+    "pasta texture": [],
+    "garnish": [
+      {
+        "sense_id": "oewn-garnish__1.13.00..",
+        "definition": [
+          "something (such as parsley) added to a dish for flavor or decoration"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          },
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-garnish__2.36.00..",
+        "definition": [
+          "decorate (food), as with parsley or other ornamental foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "trim",
+          "dress"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          },
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "flavor profile": [],
+    "sauce consistency": [],
+    "simmer": [
+      {
+        "sense_id": "oewn-simmer__1.07.00..",
+        "definition": [
+          "temperature just below the boiling point"
+        ],
+        "examples": [
+          "the stew remained at a simmer for hours"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-simmer__2.30.00..",
+        "definition": [
+          "boil slowly at low temperature"
+        ],
+        "examples": [
+          "simmer the sauce",
+          "simmering water"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "culinary technique": [],
+    "perfectly cooked": [],
+    "mouthfeel": [],
+    "pasta water": [],
+    "gourmet presentation": [],
+    "incorporate": [
+      {
+        "sense_id": "oewn-incorporate__2.30.00..",
+        "definition": [
+          "make into a whole or make part of a whole"
+        ],
+        "examples": [
+          "She incorporated his suggestions into her proposal"
+        ],
+        "synonyms": [
+          "integrate"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-incorporate__2.42.00..",
+        "definition": [
+          "include or contain; have as a component"
+        ],
+        "examples": [
+          "A totally new idea is comprised in this paper",
+          "The record contains many old songs from the 1930's"
+        ],
+        "synonyms": [
+          "contain",
+          "comprise"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "plating": []
+  },
+  "elapsed_seconds": 0.0
+}

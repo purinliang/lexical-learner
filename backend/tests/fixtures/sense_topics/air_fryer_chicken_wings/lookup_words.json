@@ -1,0 +1,1369 @@
+{
+  "run_id": "198c6c3a-33fd-490e-942a-83aa009ae4c6",
+  "stage": "lookup_words",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:48:00.675318+00:00",
+  "input": {
+    "words": [
+      "chicken wing",
+      "score",
+      "marinate",
+      "air fryer",
+      "crispy",
+      "golden",
+      "seasoning",
+      "soy sauce",
+      "garlic",
+      "ginger",
+      "honey",
+      "salt",
+      "black pepper",
+      "cooking oil",
+      "texture",
+      "tender",
+      "even",
+      "thoroughly",
+      "preheat",
+      "flip"
+    ]
+  },
+  "output": {
+    "chicken wing": [
+      {
+        "sense_id": "oewn-chicken_wing__1.13.00..",
+        "definition": [
+          "the wing of a chicken"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "score": [
+      {
+        "sense_id": "oewn-score__1.09.00..",
+        "definition": [
+          "a number or letter indicating quality (especially of a student's performance)"
+        ],
+        "examples": [
+          "she made good marks in algebra",
+          "grade A milk",
+          "what was your score on your homework?"
+        ],
+        "synonyms": [
+          "mark",
+          "grade"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.10.00..",
+        "definition": [
+          "a written form of a musical composition; parts for different instruments appear on separate staves on large pages"
+        ],
+        "examples": [
+          "he studied the score of the sonata"
+        ],
+        "synonyms": [
+          "musical score"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.23.00..",
+        "definition": [
+          "a number that expresses the accomplishment of a team or an individual in a game or contest"
+        ],
+        "examples": [
+          "the score was 7 to 0"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.14.00..",
+        "definition": [
+          "a set of twenty members"
+        ],
+        "examples": [
+          "a score were sent out but only one returned"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.16.00..",
+        "definition": [
+          "grounds"
+        ],
+        "examples": [
+          "don't do it on my account",
+          "the paper was rejected on account of its length",
+          "he tried to blame the victim but his success on that score was doubtful"
+        ],
+        "synonyms": [
+          "account"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.09.01..",
+        "definition": [
+          "the facts about an actual situation"
+        ],
+        "examples": [
+          "he didn't know the score"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.26.00..",
+        "definition": [
+          "an amount due (as at a restaurant or bar)"
+        ],
+        "examples": [
+          "add it to my score and I'll settle later"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.25.00..",
+        "definition": [
+          "a slight surface cut (especially a notch that is made to keep a tally)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scotch"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.12.00..",
+        "definition": [
+          "a resentment strong enough to justify retaliation"
+        ],
+        "examples": [
+          "holding a grudge",
+          "settling a score"
+        ],
+        "synonyms": [
+          "grudge",
+          "grievance"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.04.00..",
+        "definition": [
+          "the act of scoring in a game or sport"
+        ],
+        "examples": [
+          "the winning score came with less than a minute left to play"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.04.01..",
+        "definition": [
+          "a seduction culminating in sexual intercourse"
+        ],
+        "examples": [
+          "calling his seduction of the girl a ‘score’ was a typical example of male slang"
+        ],
+        "synonyms": [
+          "sexual conquest"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.33.00..",
+        "definition": [
+          "gain points in a game"
+        ],
+        "examples": [
+          "The home team is racking up points"
+        ],
+        "synonyms": [
+          "tally",
+          "rack up"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.35.00..",
+        "definition": [
+          "make small marks into the surface of"
+        ],
+        "examples": [
+          "score the clay before firing it"
+        ],
+        "synonyms": [
+          "nock",
+          "mark"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.32.00..",
+        "definition": [
+          "make underscoring marks"
+        ],
+        "examples": [],
+        "synonyms": [
+          "mark"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.36.00..",
+        "definition": [
+          "write a musical score for"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__2.35.01..",
+        "definition": [
+          "induce to have sex"
+        ],
+        "examples": [
+          "Harry finally seduced Sally",
+          "Did you score last night?",
+          "Harry made Sally"
+        ],
+        "synonyms": [
+          "seduce",
+          "make"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.33.01..",
+        "definition": [
+          "get a certain number or letter indicating quality or performance"
+        ],
+        "examples": [
+          "She scored high on the SAT",
+          "He scored a 200"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__2.31.05..",
+        "definition": [
+          "assign a grade or rank to, according to one's evaluation"
+        ],
+        "examples": [
+          "grade tests",
+          "score the SAT essays",
+          "mark homework"
+        ],
+        "synonyms": [
+          "grade",
+          "mark"
+        ]
+      }
+    ],
+    "marinate": [
+      {
+        "sense_id": "oewn-marinate__2.30.00..",
+        "definition": [
+          "soak in marinade"
+        ],
+        "examples": [
+          "marinade herring"
+        ],
+        "synonyms": [
+          "marinade"
+        ]
+      }
+    ],
+    "air fryer": [],
+    "crispy": [
+      {
+        "sense_id": "oewn-crispy__5.00.00.tender.01",
+        "definition": [
+          "tender and brittle"
+        ],
+        "examples": [
+          "crisp potato chips"
+        ],
+        "synonyms": [
+          "crisp"
+        ]
+      }
+    ],
+    "golden": [
+      {
+        "sense_id": "oewn-golden__5.00.00.chromatic.00",
+        "definition": [
+          "having the deep slightly brownish color of gold"
+        ],
+        "examples": [
+          "long aureate (or golden) hair",
+          "a gold carpet"
+        ],
+        "synonyms": [
+          "aureate",
+          "gilded",
+          "gilt",
+          "gold"
+        ]
+      },
+      {
+        "sense_id": "oewn-golden__5.00.00.happy.00",
+        "definition": [
+          "marked by peace and prosperity"
+        ],
+        "examples": [
+          "a golden era",
+          "the halcyon days of the clipper trade"
+        ],
+        "synonyms": [
+          "halcyon",
+          "prosperous"
+        ]
+      },
+      {
+        "sense_id": "oewn-golden__5.00.00.metallic.00",
+        "definition": [
+          "made from or covered with gold"
+        ],
+        "examples": [
+          "gold coins",
+          "the gold dome of the Capitol",
+          "the golden calf",
+          "gilded icons"
+        ],
+        "synonyms": [
+          "gold",
+          "gilded"
+        ]
+      },
+      {
+        "sense_id": "oewn-golden__5.00.00.blessed.00",
+        "definition": [
+          "supremely favored"
+        ],
+        "examples": [
+          "golden lads and girls all must / like chimney sweepers come to dust",
+          "fortunate son"
+        ],
+        "synonyms": [
+          "fortunate"
+        ]
+      },
+      {
+        "sense_id": "oewn-golden__5.00.01.euphonious.00",
+        "definition": [
+          "suggestive of gold"
+        ],
+        "examples": [
+          "a golden voice"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-golden__5.00.02.propitious.00",
+        "definition": [
+          "presaging or likely to bring good luck or a good outcome"
+        ],
+        "examples": [
+          "a favorable time to ask for a raise",
+          "lucky stars",
+          "a prosperous moment to make a decision"
+        ],
+        "synonyms": [
+          "favorable",
+          "favourable",
+          "lucky",
+          "prosperous"
+        ]
+      }
+    ],
+    "seasoning": [
+      {
+        "sense_id": "oewn-seasoning__1.13.00..",
+        "definition": [
+          "something added to food primarily for the savor it imparts"
+        ],
+        "examples": [],
+        "synonyms": [
+          "flavorer",
+          "flavourer",
+          "flavoring",
+          "flavouring",
+          "seasoner"
+        ]
+      },
+      {
+        "sense_id": "oewn-seasoning__1.04.00..",
+        "definition": [
+          "the act of adding a seasoning to food"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "soy sauce": [
+      {
+        "sense_id": "oewn-soy_sauce__1.13.00..",
+        "definition": [
+          "thin sauce made of fermented soy beans"
+        ],
+        "examples": [],
+        "synonyms": [
+          "soy"
+        ]
+      }
+    ],
+    "garlic": [
+      {
+        "sense_id": "oewn-garlic__1.20.00..",
+        "definition": [
+          "bulbous herb of southern Europe widely naturalized; bulb breaks up into separate strong-flavored cloves"
+        ],
+        "examples": [],
+        "synonyms": [
+          "Allium sativum"
+        ]
+      },
+      {
+        "sense_id": "oewn-garlic__1.13.00..",
+        "definition": [
+          "aromatic bulb used as seasoning"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ail"
+        ]
+      }
+    ],
+    "ginger": [
+      {
+        "sense_id": "oewn-ginger__5.00.00.colored.00",
+        "definition": [
+          "(used especially of hair or fur) having a bright orange-brown color"
+        ],
+        "examples": [
+          "a man with gingery hair and bright blue eyes",
+          "a ginger kitten"
+        ],
+        "synonyms": [
+          "gingery"
+        ]
+      },
+      {
+        "sense_id": "oewn-ginger__1.20.00..",
+        "definition": [
+          "perennial plants having thick branching aromatic rhizomes and leafy reedlike stems"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-ginger__1.13.00..",
+        "definition": [
+          "dried ground gingerroot"
+        ],
+        "examples": [],
+        "synonyms": [
+          "powdered ginger"
+        ]
+      },
+      {
+        "sense_id": "oewn-ginger__1.13.02..",
+        "definition": [
+          "pungent rhizome of the common ginger plant; used fresh as a seasoning especially in Asian cookery"
+        ],
+        "examples": [],
+        "synonyms": [
+          "gingerroot"
+        ]
+      },
+      {
+        "sense_id": "oewn-ginger__1.07.00..",
+        "definition": [
+          "liveliness and energy"
+        ],
+        "examples": [
+          "this tonic is guaranteed to give you more pep"
+        ],
+        "synonyms": [
+          "pep",
+          "peppiness"
+        ]
+      },
+      {
+        "sense_id": "oewn-ginger__2.39.00..",
+        "definition": [
+          "add ginger to in order to add flavor"
+        ],
+        "examples": [
+          "ginger the soup"
+        ],
+        "synonyms": []
+      }
+    ],
+    "honey": [
+      {
+        "sense_id": "oewn-honey__5.00.00.chromatic.00",
+        "definition": [
+          "of something having the color of honey"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-honey__1.13.00..",
+        "definition": [
+          "a sweet yellow liquid produced by bees"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-honey__1.18.00..",
+        "definition": [
+          "a beloved person; used as terms of endearment"
+        ],
+        "examples": [],
+        "synonyms": [
+          "beloved",
+          "dear",
+          "dearest",
+          "love",
+          "baby",
+          "darling",
+          "deary",
+          "dearie",
+          "sweetheart",
+          "sweetie"
+        ]
+      },
+      {
+        "sense_id": "oewn-honey__2.39.00..",
+        "definition": [
+          "sweeten with honey"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "salt": [
+      {
+        "sense_id": "oewn-salt__5.00.00.sharp.04",
+        "definition": [
+          "(of speech) painful or bitter"
+        ],
+        "examples": [
+          "salt scorn",
+          "a salt apology"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-salt__1.27.00..",
+        "definition": [
+          "a compound formed by replacing hydrogen in an acid by a metal (or a radical that acts like a metal)"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-salt__1.13.00..",
+        "definition": [
+          "white crystalline form of especially sodium chloride used to season and preserve food"
+        ],
+        "examples": [],
+        "synonyms": [
+          "table salt",
+          "common salt"
+        ]
+      },
+      {
+        "sense_id": "oewn-salt__1.09.00..",
+        "definition": [
+          "the taste experience when common salt is taken into the mouth"
+        ],
+        "examples": [],
+        "synonyms": [
+          "saltiness",
+          "salinity"
+        ]
+      },
+      {
+        "sense_id": "oewn-salt__2.39.00..",
+        "definition": [
+          "add salt to"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-salt__2.35.00..",
+        "definition": [
+          "sprinkle as if with salt"
+        ],
+        "examples": [
+          "the rebels had salted the fields with mines and traps"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-salt__2.30.01..",
+        "definition": [
+          "add zest or liveliness to"
+        ],
+        "examples": [
+          "She salts her lectures with jokes"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-salt__2.30.00..",
+        "definition": [
+          "preserve with salt"
+        ],
+        "examples": [
+          "people used to salt meats on ships"
+        ],
+        "synonyms": []
+      }
+    ],
+    "black pepper": [
+      {
+        "sense_id": "oewn-black_pepper__1.20.00..",
+        "definition": [
+          "climber having dark red berries (peppercorns) when fully ripe; southern India and Sri Lanka; naturalized in northern Burma and Assam"
+        ],
+        "examples": [],
+        "synonyms": [
+          "pepper",
+          "common pepper",
+          "white pepper",
+          "Madagascar pepper",
+          "Piper nigrum"
+        ]
+      },
+      {
+        "sense_id": "oewn-black_pepper__1.13.00..",
+        "definition": [
+          "pepper that is ground from whole peppercorns with husks on"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "cooking oil": [
+      {
+        "sense_id": "oewn-cooking_oil__1.13.00..",
+        "definition": [
+          "any of numerous vegetable oils used in cooking"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "texture": [
+      {
+        "sense_id": "oewn-texture__1.07.00..",
+        "definition": [
+          "the feel of a surface or a fabric"
+        ],
+        "examples": [
+          "the wall had a smooth texture"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.09.00..",
+        "definition": [
+          "the essential quality of something"
+        ],
+        "examples": [
+          "the texture of Neapolitan life"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.02..",
+        "definition": [
+          "the musical pattern created by parts being played or sung together"
+        ],
+        "examples": [
+          "then another melodic line is added to the texture"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.01..",
+        "definition": [
+          "the characteristic appearance of a surface having a tactile quality"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.03..",
+        "definition": [
+          "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+        ],
+        "examples": [
+          "breadfruit has the same texture as bread",
+          "sand of a fine grain",
+          "fish with a delicate flavor and texture",
+          "a stone of coarse grain"
+        ],
+        "synonyms": [
+          "grain"
+        ]
+      }
+    ],
+    "tender": [
+      {
+        "sense_id": "oewn-tender__3.00.03..",
+        "definition": [
+          "given to sympathy or gentleness or sentimentality"
+        ],
+        "examples": [
+          "a tender heart",
+          "a tender smile",
+          "tender loving care",
+          "tender memories",
+          "a tender mother"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.painful.00",
+        "definition": [
+          "hurting"
+        ],
+        "examples": [
+          "the tender spot on his jaw"
+        ],
+        "synonyms": [
+          "sensitive",
+          "sore",
+          "raw"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.young.00",
+        "definition": [
+          "young and immature"
+        ],
+        "examples": [
+          "at a tender age"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.loving.00",
+        "definition": [
+          "having or displaying warmth or affection"
+        ],
+        "examples": [
+          "affectionate children",
+          "a fond embrace",
+          "fond of his nephew",
+          "a tender glance"
+        ],
+        "synonyms": [
+          "affectionate",
+          "fond",
+          "lovesome"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__3.00.01..",
+        "definition": [
+          "easy to cut or chew"
+        ],
+        "examples": [
+          "tender beef"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__3.00.02..",
+        "definition": [
+          "physically untoughened"
+        ],
+        "examples": [
+          "tender feet"
+        ],
+        "synonyms": [
+          "untoughened"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.unstable.00",
+        "definition": [
+          "(used of boats) inclined to heel over easily under sail"
+        ],
+        "examples": [],
+        "synonyms": [
+          "crank",
+          "cranky",
+          "tippy"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.delicate.00",
+        "definition": [
+          "(of plants) not hardy; easily killed by adverse growing condition"
+        ],
+        "examples": [
+          "tender green shoots"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__1.21.00..",
+        "definition": [
+          "something that can be used as an official medium of payment"
+        ],
+        "examples": [],
+        "synonyms": [
+          "legal tender",
+          "stamp"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.18.00..",
+        "definition": [
+          "someone who waits on or tends to or attends to the needs of another"
+        ],
+        "examples": [],
+        "synonyms": [
+          "attendant",
+          "attender"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.10.00..",
+        "definition": [
+          "a formal proposal to buy at a specified price"
+        ],
+        "examples": [],
+        "synonyms": [
+          "bid"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.06.02..",
+        "definition": [
+          "car attached to a locomotive to carry fuel and water"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__1.06.01..",
+        "definition": [
+          "a boat for communication between ship and shore"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ship's boat",
+          "pinnace",
+          "cutter"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.06.00..",
+        "definition": [
+          "ship that usually provides supplies to other ships"
+        ],
+        "examples": [],
+        "synonyms": [
+          "supply ship"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__2.40.01..",
+        "definition": [
+          "offer or present for acceptance"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__2.40.02..",
+        "definition": [
+          "propose a payment"
+        ],
+        "examples": [
+          "The Swiss dealer offered $2 million for the painting"
+        ],
+        "synonyms": [
+          "offer",
+          "bid"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__2.40.00..",
+        "definition": [
+          "make a tender of; in legal settlements"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__2.30.00..",
+        "definition": [
+          "make tender or more tender as by marinating, pounding, or applying a tenderizer"
+        ],
+        "examples": [
+          "tenderize meat"
+        ],
+        "synonyms": [
+          "tenderize",
+          "tenderise"
+        ]
+      }
+    ],
+    "even": [
+      {
+        "sense_id": "oewn-even__3.00.02..",
+        "definition": [
+          "divisible by two"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-even__5.00.01.equal.00",
+        "definition": [
+          "equal in degree or extent or amount; or equally matched or balanced"
+        ],
+        "examples": [
+          "even amounts of butter and sugar",
+          "on even terms",
+          "it was a fifty-fifty (or even) split",
+          "had a fifty-fifty (or even) chance",
+          "an even fight"
+        ],
+        "synonyms": [
+          "fifty-fifty"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__3.00.01..",
+        "definition": [
+          "being level or straight or regular and without variation as e.g. in shape or texture; or being in the same plane or at the same height as something else (i.e. even with)"
+        ],
+        "examples": [
+          "an even application of varnish",
+          "an even floor",
+          "the road was not very even",
+          "the picture is even with the window"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-even__5.00.00.symmetrical.00",
+        "definition": [
+          "symmetrically arranged"
+        ],
+        "examples": [
+          "even features",
+          "regular features",
+          "a regular polygon"
+        ],
+        "synonyms": [
+          "regular"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__5.00.00.steady.00",
+        "definition": [
+          "occurring at fixed intervals"
+        ],
+        "examples": [
+          "a regular beat",
+          "the even rhythm of his breathing"
+        ],
+        "synonyms": [
+          "regular"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__5.00.02.equal.00",
+        "definition": [
+          "of the score in a contest"
+        ],
+        "examples": [
+          "the score is tied"
+        ],
+        "synonyms": [
+          "tied",
+          "level"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__1.28.00..",
+        "definition": [
+          "the latter part of the day (the period of decreasing daylight from late afternoon until nightfall)"
+        ],
+        "examples": [
+          "he enjoyed the evening light across the lake"
+        ],
+        "synonyms": [
+          "evening",
+          "eve",
+          "eventide"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__4.02.00..",
+        "definition": [
+          "used as an intensive especially to indicate something unexpected"
+        ],
+        "examples": [
+          "even an idiot knows that",
+          "declined even to consider the idea",
+          "I don't have even a dollar!"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-even__4.02.03..",
+        "definition": [
+          "in spite of; notwithstanding"
+        ],
+        "examples": [
+          "even when he is sick, he works",
+          "even with his head start she caught up with him"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-even__4.02.01..",
+        "definition": [
+          "to a greater degree or extent; used with comparisons"
+        ],
+        "examples": [
+          "looked sick and felt even worse",
+          "an even (or still) more interesting problem",
+          "still another problem must be solved",
+          "a yet sadder tale"
+        ],
+        "synonyms": [
+          "yet",
+          "still"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__4.02.04..",
+        "definition": [
+          "to the full extent"
+        ],
+        "examples": [
+          "loyal even unto death"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-even__2.35.00..",
+        "definition": [
+          "make level or straight"
+        ],
+        "examples": [
+          "level the ground"
+        ],
+        "synonyms": [
+          "flush",
+          "level",
+          "even out"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__2.30.00..",
+        "definition": [
+          "become even or more even"
+        ],
+        "examples": [
+          "even out the surface"
+        ],
+        "synonyms": [
+          "even out"
+        ]
+      },
+      {
+        "sense_id": "oewn-even__2.30.01..",
+        "definition": [
+          "make even or more even"
+        ],
+        "examples": [],
+        "synonyms": [
+          "even out"
+        ]
+      }
+    ],
+    "thoroughly": [
+      {
+        "sense_id": "oewn-thoroughly__4.02.00..",
+        "definition": [
+          "in an exhaustive manner"
+        ],
+        "examples": [
+          "we searched the files thoroughly"
+        ],
+        "synonyms": [
+          "exhaustively"
+        ]
+      },
+      {
+        "sense_id": "oewn-thoroughly__4.02.01..",
+        "definition": [
+          "completely and absolutely (‘good’ is sometimes used informally for ‘thoroughly’)"
+        ],
+        "examples": [
+          "he was soundly defeated",
+          "we beat him good"
+        ],
+        "synonyms": [
+          "soundly",
+          "good"
+        ]
+      }
+    ],
+    "preheat": [
+      {
+        "sense_id": "oewn-preheat__2.30.00..",
+        "definition": [
+          "heat beforehand"
+        ],
+        "examples": [
+          "Preheat the oven!"
+        ],
+        "synonyms": []
+      }
+    ],
+    "flip": [
+      {
+        "sense_id": "oewn-flip__5.00.00.disrespectful.00",
+        "definition": [
+          "marked by casual disrespect"
+        ],
+        "examples": [
+          "a flip answer to serious question",
+          "the student was kept in for impudent behavior"
+        ],
+        "synonyms": [
+          "impudent",
+          "insolent",
+          "snotty-nosed"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__1.10.01..",
+        "definition": [
+          "a suite of internet protocols, which provide Security transparency, security and network management."
+        ],
+        "examples": [
+          "FLIP is a connectionless protocol designed to support transparency, group communication, secure communication and easy network management."
+        ],
+        "synonyms": [
+          "fast local internet protocol"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__1.04.03..",
+        "definition": [
+          "an acrobatic feat in which the feet roll over the head (either forward or backward) and return"
+        ],
+        "examples": [],
+        "synonyms": [
+          "somersault",
+          "somerset",
+          "summersault",
+          "summerset",
+          "somersaulting"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__1.13.00..",
+        "definition": [
+          "hot or cold alcoholic mixed drink containing a beaten egg"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-flip__1.04.04..",
+        "definition": [
+          "a sudden, quick movement"
+        ],
+        "examples": [
+          "with a flip of the wrist",
+          "the fish flipped over"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-flip__1.04.01..",
+        "definition": [
+          "the act of flipping a coin"
+        ],
+        "examples": [],
+        "synonyms": [
+          "toss"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__1.04.02..",
+        "definition": [
+          "a dive in which the diver somersaults before entering the water"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-flip__1.04.00..",
+        "definition": [
+          "(sports) the act of throwing the ball to another member of your team"
+        ],
+        "examples": [
+          "the pass was fumbled"
+        ],
+        "synonyms": [
+          "pass",
+          "toss"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.38.00..",
+        "definition": [
+          "lightly throw to see which side comes up"
+        ],
+        "examples": [
+          "I don't know what to do — I may as well flip a coin!"
+        ],
+        "synonyms": [
+          "toss"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.35.01..",
+        "definition": [
+          "cause to go on or to be engaged or set in operation"
+        ],
+        "examples": [
+          "switch on the light",
+          "throw the lever"
+        ],
+        "synonyms": [
+          "throw",
+          "switch"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.39.10..",
+        "definition": [
+          "look through a book or other written material"
+        ],
+        "examples": [
+          "He thumbed through the report",
+          "She leafed through the volume"
+        ],
+        "synonyms": [
+          "flick",
+          "thumb",
+          "riffle",
+          "leaf",
+          "riff"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.38.02..",
+        "definition": [
+          "toss with a sharp movement so as to cause to turn over in the air"
+        ],
+        "examples": [],
+        "synonyms": [
+          "twitch"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.38.01..",
+        "definition": [
+          "cause to move with a flick"
+        ],
+        "examples": [
+          "he flicked his Bic"
+        ],
+        "synonyms": [
+          "flick"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.35.00..",
+        "definition": [
+          "throw or toss with a light motion"
+        ],
+        "examples": [
+          "flip me the beachball",
+          "toss me newspaper"
+        ],
+        "synonyms": [
+          "toss",
+          "sky",
+          "pitch"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.35.05..",
+        "definition": [
+          "move with a flick or light motion"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-flip__2.35.03..",
+        "definition": [
+          "turn upside down, or throw so as to reverse"
+        ],
+        "examples": [
+          "flip over the pork chop",
+          "turn over the pancakes"
+        ],
+        "synonyms": [
+          "flip over",
+          "turn over"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.31.00..",
+        "definition": [
+          "react in an excited, delighted, or surprised way"
+        ],
+        "examples": [
+          "he flipped when he heard that he was accepted into Princeton University"
+        ],
+        "synonyms": [
+          "flip out"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.30.13..",
+        "definition": [
+          "go mad, go crazy"
+        ],
+        "examples": [
+          "He flipped when he heard that he was being laid off"
+        ],
+        "synonyms": [
+          "flip out"
+        ]
+      },
+      {
+        "sense_id": "oewn-flip__2.30.00..",
+        "definition": [
+          "reverse (a direction, attitude, or course of action)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "interchange",
+          "tack",
+          "switch",
+          "alternate",
+          "flip-flop"
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 0.274
+}

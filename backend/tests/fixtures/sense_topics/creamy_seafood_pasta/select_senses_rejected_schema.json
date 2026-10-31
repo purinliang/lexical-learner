@@ -1,0 +1,349 @@
+{
+  "run_id": "6a187799-bc7a-4be5-bfa2-6a7afbaa0086",
+  "stage": "select_senses",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:47:56.757628+00:00",
+  "input": {
+    "prompt": "我发现奶油海鲜意大利面加点黑胡椒和欧芹特别漂亮，只不过如何控制火候不要让意大利面太软或者太硬需要一些经验。",
+    "definitions": {
+      "al dente": [
+        "of pasta cooked so as to be firm when eaten"
+      ],
+      "boil": [
+        "a painful sore with a hard core filled with pus",
+        "the temperature at which a liquid boils at sea level",
+        "come to the boiling point and change from a liquid to vapor",
+        "immerse or be immersed in a boiling liquid, often for cooking purposes",
+        "bring to, or maintain at, the boiling point",
+        "be agitated",
+        "be in an agitated emotional state"
+      ],
+      "simmer": [
+        "temperature just below the boiling point",
+        "boil slowly at low temperature"
+      ],
+      "sauté": [
+        "fried quickly in a little fat",
+        "a dish of sauteed food",
+        "fry briefly over high heat"
+      ],
+      "emulsify": [
+        "cause to become an emulsion; make into an emulsion",
+        "form into or become an emulsion"
+      ],
+      "pasta": [
+        "a dish that contains pasta as its main ingredient",
+        "shaped and dried dough made from flour and water and sometimes egg"
+      ],
+      "spaghetti": [
+        "spaghetti served with a tomato sauce",
+        "pasta in the form of long strings"
+      ],
+      "linguine": [
+        "pasta in long slender flat strips"
+      ],
+      "heavy cream": [
+        "contains more than 36% butterfat"
+      ],
+      "parmesan": [
+        "hard dry sharp-flavored Italian cheese; often grated"
+      ],
+      "garlic": [
+        "bulbous herb of southern Europe widely naturalized; bulb breaks up into separate strong-flavored cloves",
+        "aromatic bulb used as seasoning"
+      ],
+      "shrimp": [
+        "disparaging terms for small people",
+        "any of various edible decapod crustaceans",
+        "small slender-bodied chiefly marine decapod crustaceans with a long tail and single pair of pincers; many species are edible",
+        "fish for shrimp"
+      ],
+      "scallop": [
+        "one of a series of rounded projections (or the notches between them) formed by curves along an edge (as the edge of a leaf or piece of cloth or the margin of a shell or a shriveled red blood cell observed in a hypertonic solution etc.)",
+        "edible muscle of mollusks having fan-shaped shells; served broiled or poached or in salads or cream sauces",
+        "thin slice of meat (especially veal) usually fried or broiled",
+        "edible marine bivalve having a fluted fan-shaped shell that swim by expelling water from the shell in a series of snapping motions",
+        "decorate an edge with scallops",
+        "bake in a sauce, milk, etc., often with breadcrumbs on top",
+        "form scallops in",
+        "fish for scallops",
+        "shape or cut in scallops"
+      ],
+      "mussel": [
+        "black marine bivalves usually steamed in wine",
+        "marine or freshwater bivalve mollusk that lives attached to rocks etc."
+      ],
+      "clam": [
+        "burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness",
+        "a piece of paper money worth one dollar",
+        "flesh of either hard-shell or soft-shell clams",
+        "gather clams, by digging in the sand by the ocean"
+      ],
+      "black pepper": [
+        "climber having dark red berries (peppercorns) when fully ripe; southern India and Sri Lanka; naturalized in northern Burma and Assam",
+        "pepper that is ground from whole peppercorns with husks on"
+      ],
+      "parsley": [
+        "annual or perennial herb with aromatic leaves",
+        "aromatic herb with flat or crinkly leaves that are cut finely and used to garnish food"
+      ],
+      "olive oil": [
+        "oil from olives"
+      ],
+      "butter": [
+        "an edible emulsion of fat globules made by churning milk or cream; for cooking and table use",
+        "a fighter who strikes the opponent with their head",
+        "spread butter on"
+      ],
+      "white wine": [
+        "pale yellowish wine made from white grapes or red grapes with skins removed before fermentation"
+      ],
+      "lemon zest": [
+        "tiny bits of lemon peel"
+      ],
+      "colander": [
+        "bowl-shaped strainer; used to wash or drain foods"
+      ],
+      "tongs": [
+        "any of various devices for taking hold of objects; usually have two hinged legs with handles above and pointed hooks below"
+      ],
+      "skillet": [
+        "a pan used for frying foods"
+      ],
+      "saucepan": [
+        "a deep pan with a handle; used for stewing or boiling"
+      ],
+      "texture": [
+        "the feel of a surface or a fabric",
+        "the essential quality of something",
+        "the musical pattern created by parts being played or sung together",
+        "the characteristic appearance of a surface having a tactile quality",
+        "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+      ],
+      "creamy": [
+        "of the color of cream",
+        "thick like cream"
+      ],
+      "aromatic": [
+        "(chemistry) of or relating to or containing one or more benzene rings",
+        "having a strong pleasant odor"
+      ],
+      "garish": [
+        "tastelessly showy"
+      ],
+      "doneness": []
+    },
+    "taxonomy": [
+      {
+        "id": "concepts",
+        "name": "Concepts",
+        "description": "Abstract concepts and relationships, time, space, quantity, degree, comparison, similarity, difference, change, causality, possibility, probability, certainty, necessity, obligation, logic, reasoning, and argumentation.",
+        "topics": []
+      },
+      {
+        "id": "culture",
+        "name": "Culture",
+        "description": "Languages, literature, history, art, music, film, theater, sports, games, hobbies, recreation, festivals, religion, traditions, customs, and cultural heritage.",
+        "topics": []
+      },
+      {
+        "id": "education",
+        "name": "Education",
+        "description": "Schools, universities, courses, subjects, students, teachers, learning methods, examinations, academic research, teaching, educational institutions, and academic activities.",
+        "topics": []
+      },
+      {
+        "id": "health",
+        "name": "Health",
+        "description": "Human anatomy, physical and mental health, diseases, injuries, symptoms, medications, medical treatments, healthcare services, nutrition, fitness, hygiene, and personal well-being.",
+        "topics": []
+      },
+      {
+        "id": "industry",
+        "name": "Industry",
+        "description": "Agriculture, forestry, livestock farming, fisheries, aquaculture, mining, manufacturing, food processing, factories, industrial production, logistics, supply chains, trade, commerce, and business operations.",
+        "topics": []
+      },
+      {
+        "id": "life",
+        "name": "Life",
+        "description": "Everyday living, food and drinks, cooking, clothing, fashion, cosmetics, jewelry, housing, furniture, household chores, shopping, personal finance, transportation, travel, and daily routines.",
+        "topics": [
+          {
+            "id": "clothing-accessories",
+            "name": "Clothing & Accessories",
+            "description": "Clothes, footwear, hats, bags, jewelry, fabrics, clothing sizes, styles, cosmetics, makeup products, and accessories used for dressing and personal appearance.",
+            "subtopics": []
+          },
+          {
+            "id": "finance",
+            "name": "Finance",
+            "description": "Personal banking, bank accounts, payments, savings, loans, household bills, budgeting, personal insurance, taxes, and everyday financial management.",
+            "subtopics": []
+          },
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "description": "Foods, ingredients, cuisines, beverages, cooking methods, kitchen equipment, meals, dining, flavors, textures, and everyday food preparation.",
+            "subtopics": [
+              {
+                "id": "food-beverages",
+                "name": "Beverages",
+                "description": "Alcoholic and non-alcoholic beverages, including water, tea, coffee, juice, soft drinks, milk-based drinks, beer, wine, spirits, and other drinks."
+              },
+              {
+                "id": "food-cooking",
+                "name": "Cooking",
+                "description": "Everyday food preparation and cooking, including washing, peeling, cutting, chopping, slicing, dicing, mixing, marinating, seasoning, boiling, frying, steaming, roasting, baking, and other cooking techniques."
+              },
+              {
+                "id": "food-dining",
+                "name": "Dining",
+                "description": "Everyday eating and mealtime experiences, including dining tables, tablecloths, tableware, cutlery, meal times, eating actions, food flavors, aromas, textures, and descriptions of taste."
+              },
+              {
+                "id": "food-dishes",
+                "name": "Dishes",
+                "description": "Names and types of prepared foods and dishes, including Chinese food, Japanese food, pasta, soups, baked goods, desserts, and regional culinary specialties."
+              },
+              {
+                "id": "food-ingredients",
+                "name": "Ingredients",
+                "description": "Common food ingredients and raw materials, including meat, seafood, vegetables, fruits, grains, flour, dairy products, herbs, spices, seasonings, and other ingredients used in cooking."
+              },
+              {
+                "id": "food-kitchen",
+                "name": "Kitchen",
+                "description": "Kitchen spaces, fixtures, appliances, cookware, utensils, sinks, stoves, ovens, refrigerators, freezers, cabinets, and everyday kitchen activities. Food storage, refrigeration, freezing, thawing, preservation, freshness, expiration, spoilage, rotting, mould, contamination, and food safety."
+              },
+              {
+                "id": "food-restaurants",
+                "name": "Restaurants",
+                "description": "Restaurants and food service, including menus, ordering, waiters, servers, reservations, bills, split payments, tips, surcharges, customer requests, and restaurant interactions."
+              }
+            ]
+          },
+          {
+            "id": "home-living",
+            "name": "Home & Living",
+            "description": "Homes, rooms, furniture, household appliances, renting, household chores, cleaning, laundry, home maintenance, repairs, and everyday domestic activities.",
+            "subtopics": []
+          },
+          {
+            "id": "personal-care",
+            "name": "Personal Care",
+            "description": "Bathing, showering, skincare, haircare, shaving, grooming, personal hygiene products, and everyday routines for maintaining personal appearance and cleanliness.",
+            "subtopics": []
+          },
+          {
+            "id": "places",
+            "name": "Places",
+            "description": "Cities, towns, villages, countryside, suburbs, neighborhoods, streets, parks, squares, public spaces, and everyday descriptions of places and local surroundings.",
+            "subtopics": []
+          },
+          {
+            "id": "shopping",
+            "name": "Shopping",
+            "description": "Supermarkets, shops, shopping centers, products, prices, discounts, purchases, returns, refunds, online shopping, and everyday consumer transactions.",
+            "subtopics": []
+          },
+          {
+            "id": "transport",
+            "name": "Transport",
+            "description": "Cars, vehicle parts, driving, traffic rules, road signs, buses, trains, trams, bicycles, commuting, parking, and everyday transportation.",
+            "subtopics": []
+          },
+          {
+            "id": "travel",
+            "name": "Travel",
+            "description": "Trips, holidays, tourism, travel planning, destinations, accommodation, airports, flights, luggage, bookings, sightseeing, and travel experiences.",
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "nature",
+        "name": "Nature",
+        "description": "The natural world, animals, plants, fungi, microorganisms, wildlife, ecosystems, weather, climate, landscapes, mountains, rivers, oceans, natural environments, and natural phenomena.",
+        "topics": []
+      },
+      {
+        "id": "people",
+        "name": "People",
+        "description": "Human relationships, family members, relatives, friends, neighbors, personal identity, personality, character traits, physical appearance, emotions, feelings, attitudes, and social interactions.",
+        "topics": [
+          {
+            "id": "appearance",
+            "name": "Appearance",
+            "description": "Physical appearance, facial features, height, body shape, complexion, hair, and words used to describe how a person looks.",
+            "subtopics": []
+          },
+          {
+            "id": "behavior",
+            "name": "Behavior",
+            "description": "Human behavior, manners, politeness, habits, gestures, body language, attitudes toward others, and ways people act in different situations.",
+            "subtopics": []
+          },
+          {
+            "id": "emotions",
+            "name": "Emotions",
+            "description": "Feelings, moods, emotional states, emotional reactions, and expressions of happiness, sadness, anger, fear, anxiety, excitement, and affection.",
+            "subtopics": []
+          },
+          {
+            "id": "identity",
+            "name": "Identity",
+            "description": "Personal identity, age, nationality, ethnicity, gender, marital status, life stages, personal background, and social roles.",
+            "subtopics": []
+          },
+          {
+            "id": "personality",
+            "name": "Personality",
+            "description": "Personality traits, temperament, character, personal qualities, strengths, weaknesses, and descriptions of how a person typically thinks and behaves.",
+            "subtopics": []
+          },
+          {
+            "id": "relationships",
+            "name": "Relationships",
+            "description": "Family and kinship terms, relatives, friendships, acquaintances, neighbors, classmates, roommates, colleagues, superiors, subordinates, and other interpersonal relationships.",
+            "subtopics": []
+          },
+          {
+            "id": "socializing",
+            "name": "Socializing",
+            "description": "Social interactions and activities, making friends, invitations, visits, parties, gatherings, gift-giving, greetings, congratulations, and maintaining social connections.",
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "science",
+        "name": "Science",
+        "description": "Mathematics, physics, chemistry, biology, geography, geology, astronomy, scientific theories, experiments, measurements, scientific methods, and the systematic study of natural phenomena.",
+        "topics": []
+      },
+      {
+        "id": "society",
+        "name": "Society",
+        "description": "Government, politics, law, crime, justice, public administration, citizenship, social institutions, public services, social issues, communities, and civic affairs.",
+        "topics": []
+      },
+      {
+        "id": "technology",
+        "name": "Technology",
+        "description": "Computers, software, artificial intelligence, electronics, telecommunications, mechanical systems, materials, machines, engineering methods, technological inventions, and technical applications.",
+        "topics": []
+      },
+      {
+        "id": "work",
+        "name": "Work",
+        "description": "Jobs, occupations, recruitment, job interviews, workplaces, professional relationships, employment, salaries, meetings, workplace communication, responsibilities, and career development.",
+        "topics": []
+      }
+    ]
+  },
+  "error": {
+    "type": "GoogleInvalidRequestError"
+  },
+  "elapsed_seconds": 1.908
+}

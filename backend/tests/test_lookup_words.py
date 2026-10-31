@@ -40,9 +40,21 @@ def test_lookup_words_preserves_multiple_senses() -> None:
 
 
 def test_lookup_words_missing_or_empty() -> None:
-    assert lookup_words(["quuxzzlearnernonword", "boot quuxzzlearnernonword", "   "]) == {
-        "quuxzzlearnernonword": [],
-        "boot quuxzzlearnernonword": [],
-        "   ": [],
-    }
+    results = lookup_words(["quuxzzlearnernonword", "boot quuxzzlearnernonword", "   "])
+    assert results["quuxzzlearnernonword"] == []
+    assert results["boot quuxzzlearnernonword"] == []
+    assert results["   "] == []
+    assert results["boot"] == lookup_words(["boot"])["boot"]
     assert lookup_words([]) == {}
+
+
+def test_lookup_words_splits_only_unmatched_phrases() -> None:
+    results = lookup_words(["air fryer", "air fryer", "air", "black pepper"])
+
+    assert set(results) == {"air fryer", "air", "fryer", "black pepper"}
+    assert results["air fryer"] == []
+    assert results["air"]
+    assert results["fryer"]
+    assert results["black pepper"]
+    assert results["air"] == lookup_words(["air"])["air"]
+    assert results["fryer"] == lookup_words(["fryer"])["fryer"]

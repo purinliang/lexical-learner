@@ -1,0 +1,28 @@
+{
+  "run_id": "73aa7ff4-9d3d-4121-8df6-7359056d84f7",
+  "stage": "generate_vocabulary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:50.127650+00:00",
+  "input": {
+    "prompt": "在鸡翅表面上划两刀，可以加速腌制的速度，后续使用空气炸锅炸鸡翅的时候也更容易熟得均匀。"
+  },
+  "output": [
+    "score",
+    "marinate",
+    "deepen the flavor",
+    "even cooking",
+    "air fryer",
+    "crispy skin",
+    "tender",
+    "prep work",
+    "slash",
+    "seasoning penetration",
+    "thoroughly cooked",
+    "golden brown",
+    "juicy",
+    "bone-in",
+    "cut marks",
+    "quicker cooking"
+  ],
+  "elapsed_seconds": 1.315
+}

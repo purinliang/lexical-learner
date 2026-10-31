@@ -1,5 +1,5 @@
 # backend/src/lexical_learner/lookup_words.py
-# Look up WordNet senses, definitions, examples and synonyms offline for a list of words.
+# Look up words offline, splitting unmatched phrases into independent word lookups.
 # I/O fixture: backend/tests/fixtures/lookup_words.json
 
 from typing import TypedDict
@@ -17,7 +17,9 @@ class WordSense(TypedDict):
 def lookup_words(words: list[str]) -> dict[str, list[WordSense]]:
     dictionary = wn.Wordnet("oewn:2025")
     results: dict[str, list[WordSense]] = {}
-    for word in words:
+    pending = list(dict.fromkeys(words))
+    seen = set(pending)
+    for word in pending:
         results[word] = []
         if not word.strip():
             continue
@@ -36,4 +38,10 @@ def lookup_words(words: list[str]) -> dict[str, list[WordSense]]:
                     ],
                 }
             )
+        # Keep the unmatched phrase empty; component senses do not verify the phrase.
+        if not results[word] and len(parts := word.split()) > 1:
+            for part in parts:
+                if part not in seen:
+                    seen.add(part)
+                    pending.append(part)
     return results

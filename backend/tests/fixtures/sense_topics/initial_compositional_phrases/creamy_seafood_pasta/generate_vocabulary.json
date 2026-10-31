@@ -1,0 +1,30 @@
+{
+  "run_id": "cc6ffd7d-ff7d-447b-b495-3ddd91b9c647",
+  "stage": "generate_vocabulary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:43.410422+00:00",
+  "input": {
+    "prompt": "我发现奶油海鲜意大利面加点黑胡椒和欧芹特别漂亮，只不过如何控制火候不要让意大利面太软或者太硬需要一些经验。"
+  },
+  "output": [
+    "al dente",
+    "creamy seafood pasta",
+    "fresh parsley",
+    "cracked black pepper",
+    "boil until tender",
+    "cooking time",
+    "pasta texture",
+    "garnish",
+    "flavor profile",
+    "sauce consistency",
+    "simmer",
+    "culinary technique",
+    "perfectly cooked",
+    "mouthfeel",
+    "pasta water",
+    "gourmet presentation",
+    "incorporate",
+    "plating"
+  ],
+  "elapsed_seconds": 1.572
+}

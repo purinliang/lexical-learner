@@ -1,0 +1,658 @@
+{
+  "run_id": "73aa7ff4-9d3d-4121-8df6-7359056d84f7",
+  "stage": "lookup_words",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:51.443412+00:00",
+  "input": {
+    "words": [
+      "score",
+      "marinate",
+      "deepen the flavor",
+      "even cooking",
+      "air fryer",
+      "crispy skin",
+      "tender",
+      "prep work",
+      "slash",
+      "seasoning penetration",
+      "thoroughly cooked",
+      "golden brown",
+      "juicy",
+      "bone-in",
+      "cut marks",
+      "quicker cooking"
+    ]
+  },
+  "output": {
+    "score": [
+      {
+        "sense_id": "oewn-score__1.09.00..",
+        "definition": [
+          "a number or letter indicating quality (especially of a student's performance)"
+        ],
+        "examples": [
+          "she made good marks in algebra",
+          "grade A milk",
+          "what was your score on your homework?"
+        ],
+        "synonyms": [
+          "mark",
+          "grade"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.10.00..",
+        "definition": [
+          "a written form of a musical composition; parts for different instruments appear on separate staves on large pages"
+        ],
+        "examples": [
+          "he studied the score of the sonata"
+        ],
+        "synonyms": [
+          "musical score"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.23.00..",
+        "definition": [
+          "a number that expresses the accomplishment of a team or an individual in a game or contest"
+        ],
+        "examples": [
+          "the score was 7 to 0"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.14.00..",
+        "definition": [
+          "a set of twenty members"
+        ],
+        "examples": [
+          "a score were sent out but only one returned"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.16.00..",
+        "definition": [
+          "grounds"
+        ],
+        "examples": [
+          "don't do it on my account",
+          "the paper was rejected on account of its length",
+          "he tried to blame the victim but his success on that score was doubtful"
+        ],
+        "synonyms": [
+          "account"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.09.01..",
+        "definition": [
+          "the facts about an actual situation"
+        ],
+        "examples": [
+          "he didn't know the score"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.26.00..",
+        "definition": [
+          "an amount due (as at a restaurant or bar)"
+        ],
+        "examples": [
+          "add it to my score and I'll settle later"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.25.00..",
+        "definition": [
+          "a slight surface cut (especially a notch that is made to keep a tally)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scotch"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.12.00..",
+        "definition": [
+          "a resentment strong enough to justify retaliation"
+        ],
+        "examples": [
+          "holding a grudge",
+          "settling a score"
+        ],
+        "synonyms": [
+          "grudge",
+          "grievance"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__1.04.00..",
+        "definition": [
+          "the act of scoring in a game or sport"
+        ],
+        "examples": [
+          "the winning score came with less than a minute left to play"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__1.04.01..",
+        "definition": [
+          "a seduction culminating in sexual intercourse"
+        ],
+        "examples": [
+          "calling his seduction of the girl a ‘score’ was a typical example of male slang"
+        ],
+        "synonyms": [
+          "sexual conquest"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.33.00..",
+        "definition": [
+          "gain points in a game"
+        ],
+        "examples": [
+          "The home team is racking up points"
+        ],
+        "synonyms": [
+          "tally",
+          "rack up"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.35.00..",
+        "definition": [
+          "make small marks into the surface of"
+        ],
+        "examples": [
+          "score the clay before firing it"
+        ],
+        "synonyms": [
+          "nock",
+          "mark"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.32.00..",
+        "definition": [
+          "make underscoring marks"
+        ],
+        "examples": [],
+        "synonyms": [
+          "mark"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.36.00..",
+        "definition": [
+          "write a musical score for"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__2.35.01..",
+        "definition": [
+          "induce to have sex"
+        ],
+        "examples": [
+          "Harry finally seduced Sally",
+          "Did you score last night?",
+          "Harry made Sally"
+        ],
+        "synonyms": [
+          "seduce",
+          "make"
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.33.01..",
+        "definition": [
+          "get a certain number or letter indicating quality or performance"
+        ],
+        "examples": [
+          "She scored high on the SAT",
+          "He scored a 200"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-score__2.31.05..",
+        "definition": [
+          "assign a grade or rank to, according to one's evaluation"
+        ],
+        "examples": [
+          "grade tests",
+          "score the SAT essays",
+          "mark homework"
+        ],
+        "synonyms": [
+          "grade",
+          "mark"
+        ]
+      }
+    ],
+    "marinate": [
+      {
+        "sense_id": "oewn-marinate__2.30.00..",
+        "definition": [
+          "soak in marinade"
+        ],
+        "examples": [
+          "marinade herring"
+        ],
+        "synonyms": [
+          "marinade"
+        ]
+      }
+    ],
+    "deepen the flavor": [],
+    "even cooking": [],
+    "air fryer": [],
+    "crispy skin": [],
+    "tender": [
+      {
+        "sense_id": "oewn-tender__3.00.03..",
+        "definition": [
+          "given to sympathy or gentleness or sentimentality"
+        ],
+        "examples": [
+          "a tender heart",
+          "a tender smile",
+          "tender loving care",
+          "tender memories",
+          "a tender mother"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.painful.00",
+        "definition": [
+          "hurting"
+        ],
+        "examples": [
+          "the tender spot on his jaw"
+        ],
+        "synonyms": [
+          "sensitive",
+          "sore",
+          "raw"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.young.00",
+        "definition": [
+          "young and immature"
+        ],
+        "examples": [
+          "at a tender age"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.loving.00",
+        "definition": [
+          "having or displaying warmth or affection"
+        ],
+        "examples": [
+          "affectionate children",
+          "a fond embrace",
+          "fond of his nephew",
+          "a tender glance"
+        ],
+        "synonyms": [
+          "affectionate",
+          "fond",
+          "lovesome"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__3.00.01..",
+        "definition": [
+          "easy to cut or chew"
+        ],
+        "examples": [
+          "tender beef"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__3.00.02..",
+        "definition": [
+          "physically untoughened"
+        ],
+        "examples": [
+          "tender feet"
+        ],
+        "synonyms": [
+          "untoughened"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.unstable.00",
+        "definition": [
+          "(used of boats) inclined to heel over easily under sail"
+        ],
+        "examples": [],
+        "synonyms": [
+          "crank",
+          "cranky",
+          "tippy"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__5.00.00.delicate.00",
+        "definition": [
+          "(of plants) not hardy; easily killed by adverse growing condition"
+        ],
+        "examples": [
+          "tender green shoots"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__1.21.00..",
+        "definition": [
+          "something that can be used as an official medium of payment"
+        ],
+        "examples": [],
+        "synonyms": [
+          "legal tender",
+          "stamp"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.18.00..",
+        "definition": [
+          "someone who waits on or tends to or attends to the needs of another"
+        ],
+        "examples": [],
+        "synonyms": [
+          "attendant",
+          "attender"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.10.00..",
+        "definition": [
+          "a formal proposal to buy at a specified price"
+        ],
+        "examples": [],
+        "synonyms": [
+          "bid"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.06.02..",
+        "definition": [
+          "car attached to a locomotive to carry fuel and water"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__1.06.01..",
+        "definition": [
+          "a boat for communication between ship and shore"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ship's boat",
+          "pinnace",
+          "cutter"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__1.06.00..",
+        "definition": [
+          "ship that usually provides supplies to other ships"
+        ],
+        "examples": [],
+        "synonyms": [
+          "supply ship"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__2.40.01..",
+        "definition": [
+          "offer or present for acceptance"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__2.40.02..",
+        "definition": [
+          "propose a payment"
+        ],
+        "examples": [
+          "The Swiss dealer offered $2 million for the painting"
+        ],
+        "synonyms": [
+          "offer",
+          "bid"
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__2.40.00..",
+        "definition": [
+          "make a tender of; in legal settlements"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-tender__2.30.00..",
+        "definition": [
+          "make tender or more tender as by marinating, pounding, or applying a tenderizer"
+        ],
+        "examples": [
+          "tenderize meat"
+        ],
+        "synonyms": [
+          "tenderize",
+          "tenderise"
+        ]
+      }
+    ],
+    "prep work": [],
+    "slash": [
+      {
+        "sense_id": "oewn-slash__1.26.00..",
+        "definition": [
+          "a wound made by cutting"
+        ],
+        "examples": [
+          "he put a bandage over the cut"
+        ],
+        "synonyms": [
+          "cut",
+          "gash",
+          "slice"
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__1.17.00..",
+        "definition": [
+          "an open tract of land in a forest that is strewn with debris from logging (or fire or wind)"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-slash__1.10.00..",
+        "definition": [
+          "a punctuation mark (‘/’) used to separate related items of information"
+        ],
+        "examples": [],
+        "synonyms": [
+          "solidus",
+          "virgule",
+          "diagonal",
+          "stroke",
+          "separatrix"
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__1.04.00..",
+        "definition": [
+          "a strong sweeping cut made with a sharp instrument"
+        ],
+        "examples": [],
+        "synonyms": [
+          "gash"
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__2.35.01..",
+        "definition": [
+          "cut with sweeping strokes; as with an ax or machete"
+        ],
+        "examples": [],
+        "synonyms": [
+          "cut down"
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__2.35.02..",
+        "definition": [
+          "beat severely with a whip or rod"
+        ],
+        "examples": [
+          "The teacher often flogged the students",
+          "The children were severely trounced"
+        ],
+        "synonyms": [
+          "flog",
+          "welt",
+          "whip",
+          "lather",
+          "lash",
+          "strap",
+          "trounce"
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__2.35.00..",
+        "definition": [
+          "cut open"
+        ],
+        "examples": [
+          "she slashed her wrists"
+        ],
+        "synonyms": [
+          "gash"
+        ]
+      },
+      {
+        "sense_id": "oewn-slash__2.30.00..",
+        "definition": [
+          "cut drastically"
+        ],
+        "examples": [
+          "Prices were slashed"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-slash__2.38.00..",
+        "definition": [
+          "move or stir about violently"
+        ],
+        "examples": [
+          "The feverish patient thrashed around in his bed"
+        ],
+        "synonyms": [
+          "convulse",
+          "thresh",
+          "thresh about",
+          "thrash",
+          "thrash about",
+          "toss",
+          "jactitate"
+        ]
+      }
+    ],
+    "seasoning penetration": [],
+    "thoroughly cooked": [],
+    "golden brown": [],
+    "juicy": [
+      {
+        "sense_id": "oewn-juicy__3.00.00..",
+        "definition": [
+          "abounding in juice"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-juicy__5.00.00.sexy.00",
+        "definition": [
+          "having strong sexual appeal"
+        ],
+        "examples": [
+          "juicy barmaids",
+          "a red-hot mama",
+          "a voluptuous woman",
+          "a toothsome blonde in a tight dress"
+        ],
+        "synonyms": [
+          "luscious",
+          "red-hot",
+          "toothsome",
+          "voluptuous",
+          "lush"
+        ]
+      },
+      {
+        "sense_id": "oewn-juicy__5.00.00.profitable.00",
+        "definition": [
+          "lucrative"
+        ],
+        "examples": [
+          "a juicy contract",
+          "a nice fat job"
+        ],
+        "synonyms": [
+          "fat"
+        ]
+      },
+      {
+        "sense_id": "oewn-juicy__5.00.01.sexy.00",
+        "definition": [
+          "suggestive of sexual impropriety"
+        ],
+        "examples": [
+          "a blue movie",
+          "blue jokes",
+          "he skips asterisks and gives you the gamy details",
+          "a juicy scandal",
+          "a naughty wink",
+          "naughty words",
+          "racy anecdotes",
+          "a risque story",
+          "spicy gossip"
+        ],
+        "synonyms": [
+          "blue",
+          "gamy",
+          "gamey",
+          "naughty",
+          "racy",
+          "risque",
+          "spicy"
+        ]
+      }
+    ],
+    "bone-in": [],
+    "cut marks": [],
+    "quicker cooking": []
+  },
+  "elapsed_seconds": 0.31
+}

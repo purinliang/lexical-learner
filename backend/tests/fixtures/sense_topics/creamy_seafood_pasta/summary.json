@@ -1,0 +1,21 @@
+{
+  "run_id": "6a187799-bc7a-4be5-bfa2-6a7afbaa0086",
+  "stage": "summary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:50:15.042853+00:00",
+  "elapsed_seconds": 0.0,
+  "input": {},
+  "output": {
+    "scenario": "creamy_seafood_pasta",
+    "candidate_count": 30,
+    "selected_words": 28,
+    "selected_senses": 35,
+    "not_found": [
+      "doneness"
+    ],
+    "no_matching_sense": [
+      "garish"
+    ]
+  },
+  "resumed_after": "select_senses_rejected_schema.json"
+}

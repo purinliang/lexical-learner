@@ -36,7 +36,11 @@ def test_workflow_persists_content_and_reuses_it(monkeypatch):
         "lexical_learner.generate_lesson.lookup_words", Mock(return_value={"clutch": [sense]})
     )
     monkeypatch.setattr(
-        "lexical_learner.generate_lesson.select_senses", Mock(return_value={"clutch": [0]})
+        "lexical_learner.generate_lesson.select_senses",
+        Mock(return_value={"clutch": [{"index": 0, "topic_ids": [], "subtopic_ids": []}]}),
+    )
+    monkeypatch.setattr(
+        "lexical_learner.generate_lesson.get_taxonomy", Mock(invoke=Mock(return_value=[]))
     )
     model = Mock()
     model.invoke.return_value = SimpleNamespace(text=json.dumps(fixture["output"]))

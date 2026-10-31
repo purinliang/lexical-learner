@@ -1,0 +1,18 @@
+{
+  "run_id": "198c6c3a-33fd-490e-942a-83aa009ae4c6",
+  "stage": "summary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:48:05.596944+00:00",
+  "input": {},
+  "output": {
+    "scenario": "air_fryer_chicken_wings",
+    "candidate_count": 20,
+    "selected_words": 19,
+    "selected_senses": 24,
+    "not_found": [
+      "air fryer"
+    ],
+    "no_matching_sense": []
+  },
+  "elapsed_seconds": 0.0
+}

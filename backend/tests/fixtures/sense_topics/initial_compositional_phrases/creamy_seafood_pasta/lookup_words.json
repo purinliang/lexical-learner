@@ -1,0 +1,197 @@
+{
+  "run_id": "cc6ffd7d-ff7d-447b-b495-3ddd91b9c647",
+  "stage": "lookup_words",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:44.983846+00:00",
+  "input": {
+    "words": [
+      "al dente",
+      "creamy seafood pasta",
+      "fresh parsley",
+      "cracked black pepper",
+      "boil until tender",
+      "cooking time",
+      "pasta texture",
+      "garnish",
+      "flavor profile",
+      "sauce consistency",
+      "simmer",
+      "culinary technique",
+      "perfectly cooked",
+      "mouthfeel",
+      "pasta water",
+      "gourmet presentation",
+      "incorporate",
+      "plating"
+    ]
+  },
+  "output": {
+    "al dente": [
+      {
+        "sense_id": "oewn-al_dente__5.00.00.hard.01",
+        "definition": [
+          "of pasta cooked so as to be firm when eaten"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "creamy seafood pasta": [],
+    "fresh parsley": [],
+    "cracked black pepper": [],
+    "boil until tender": [],
+    "cooking time": [],
+    "pasta texture": [],
+    "garnish": [
+      {
+        "sense_id": "oewn-garnish__1.13.00..",
+        "definition": [
+          "something (such as parsley) added to a dish for flavor or decoration"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-garnish__1.06.00..",
+        "definition": [
+          "any decoration added as a trimming or adornment"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-garnish__2.40.00..",
+        "definition": [
+          "take a debtor's wages on legal orders, such as for child support"
+        ],
+        "examples": [
+          "His employer garnished his wages in order to pay his debt"
+        ],
+        "synonyms": [
+          "garnishee"
+        ]
+      },
+      {
+        "sense_id": "oewn-garnish__2.36.00..",
+        "definition": [
+          "decorate (food), as with parsley or other ornamental foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "trim",
+          "dress"
+        ]
+      }
+    ],
+    "flavor profile": [],
+    "sauce consistency": [],
+    "simmer": [
+      {
+        "sense_id": "oewn-simmer__1.07.00..",
+        "definition": [
+          "temperature just below the boiling point"
+        ],
+        "examples": [
+          "the stew remained at a simmer for hours"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-simmer__2.30.00..",
+        "definition": [
+          "boil slowly at low temperature"
+        ],
+        "examples": [
+          "simmer the sauce",
+          "simmering water"
+        ],
+        "synonyms": []
+      }
+    ],
+    "culinary technique": [],
+    "perfectly cooked": [],
+    "mouthfeel": [],
+    "pasta water": [],
+    "gourmet presentation": [],
+    "incorporate": [
+      {
+        "sense_id": "oewn-incorporate__5.00.00.united.00",
+        "definition": [
+          "formed or united into a whole"
+        ],
+        "examples": [],
+        "synonyms": [
+          "incorporated",
+          "integrated",
+          "merged",
+          "unified"
+        ]
+      },
+      {
+        "sense_id": "oewn-incorporate__2.30.00..",
+        "definition": [
+          "make into a whole or make part of a whole"
+        ],
+        "examples": [
+          "She incorporated his suggestions into her proposal"
+        ],
+        "synonyms": [
+          "integrate"
+        ]
+      },
+      {
+        "sense_id": "oewn-incorporate__2.42.00..",
+        "definition": [
+          "include or contain; have as a component"
+        ],
+        "examples": [
+          "A totally new idea is comprised in this paper",
+          "The record contains many old songs from the 1930's"
+        ],
+        "synonyms": [
+          "contain",
+          "comprise"
+        ]
+      },
+      {
+        "sense_id": "oewn-incorporate__2.41.00..",
+        "definition": [
+          "form a corporation"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-incorporate__2.35.00..",
+        "definition": [
+          "unite or merge with something already in existence"
+        ],
+        "examples": [
+          "incorporate this document with those pertaining to the same case"
+        ],
+        "synonyms": []
+      }
+    ],
+    "plating": [
+      {
+        "sense_id": "oewn-plating__1.06.00..",
+        "definition": [
+          "a thin coating of metal deposited on a surface"
+        ],
+        "examples": [],
+        "synonyms": [
+          "metal plating"
+        ]
+      },
+      {
+        "sense_id": "oewn-plating__1.04.00..",
+        "definition": [
+          "the application of a thin coat of metal (as by electrolysis)"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ]
+  },
+  "elapsed_seconds": 0.082
+}

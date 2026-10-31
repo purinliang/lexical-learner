@@ -1,0 +1,902 @@
+{
+  "run_id": "198c6c3a-33fd-490e-942a-83aa009ae4c6",
+  "stage": "linked_senses",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:48:05.556098+00:00",
+  "input": {
+    "selected": {
+      "chicken wing": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "score": [
+        {
+          "index": 7,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 12,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "marinate": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "air fryer": [],
+      "crispy": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "golden": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "seasoning": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        },
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "soy sauce": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "garlic": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "ginger": [
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "honey": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "salt": [
+        {
+          "index": 2,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        },
+        {
+          "index": 4,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "black pepper": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "cooking oil": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "texture": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        },
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "tender": [
+        {
+          "index": 4,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        },
+        {
+          "index": 15,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "even": [
+        {
+          "index": 2,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "thoroughly": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "preheat": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "flip": [
+        {
+          "index": 10,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ]
+    }
+  },
+  "output": {
+    "chicken wing": [
+      {
+        "sense_id": "oewn-chicken_wing__1.13.00..",
+        "definition": [
+          "the wing of a chicken"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "score": [
+      {
+        "sense_id": "oewn-score__1.25.00..",
+        "definition": [
+          "a slight surface cut (especially a notch that is made to keep a tally)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scotch"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-score__2.35.00..",
+        "definition": [
+          "make small marks into the surface of"
+        ],
+        "examples": [
+          "score the clay before firing it"
+        ],
+        "synonyms": [
+          "nock",
+          "mark"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "marinate": [
+      {
+        "sense_id": "oewn-marinate__2.30.00..",
+        "definition": [
+          "soak in marinade"
+        ],
+        "examples": [
+          "marinade herring"
+        ],
+        "synonyms": [
+          "marinade"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "air fryer": [],
+    "crispy": [
+      {
+        "sense_id": "oewn-crispy__5.00.00.tender.01",
+        "definition": [
+          "tender and brittle"
+        ],
+        "examples": [
+          "crisp potato chips"
+        ],
+        "synonyms": [
+          "crisp"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "golden": [
+      {
+        "sense_id": "oewn-golden__5.00.00.chromatic.00",
+        "definition": [
+          "having the deep slightly brownish color of gold"
+        ],
+        "examples": [
+          "long aureate (or golden) hair",
+          "a gold carpet"
+        ],
+        "synonyms": [
+          "aureate",
+          "gilded",
+          "gilt",
+          "gold"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "seasoning": [
+      {
+        "sense_id": "oewn-seasoning__1.13.00..",
+        "definition": [
+          "something added to food primarily for the savor it imparts"
+        ],
+        "examples": [],
+        "synonyms": [
+          "flavorer",
+          "flavourer",
+          "flavoring",
+          "flavouring",
+          "seasoner"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-seasoning__1.04.00..",
+        "definition": [
+          "the act of adding a seasoning to food"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "soy sauce": [
+      {
+        "sense_id": "oewn-soy_sauce__1.13.00..",
+        "definition": [
+          "thin sauce made of fermented soy beans"
+        ],
+        "examples": [],
+        "synonyms": [
+          "soy"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "garlic": [
+      {
+        "sense_id": "oewn-garlic__1.13.00..",
+        "definition": [
+          "aromatic bulb used as seasoning"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ail"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "ginger": [
+      {
+        "sense_id": "oewn-ginger__1.13.02..",
+        "definition": [
+          "pungent rhizome of the common ginger plant; used fresh as a seasoning especially in Asian cookery"
+        ],
+        "examples": [],
+        "synonyms": [
+          "gingerroot"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "honey": [
+      {
+        "sense_id": "oewn-honey__1.13.00..",
+        "definition": [
+          "a sweet yellow liquid produced by bees"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "salt": [
+      {
+        "sense_id": "oewn-salt__1.13.00..",
+        "definition": [
+          "white crystalline form of especially sodium chloride used to season and preserve food"
+        ],
+        "examples": [],
+        "synonyms": [
+          "table salt",
+          "common salt"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-salt__2.39.00..",
+        "definition": [
+          "add salt to"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "black pepper": [
+      {
+        "sense_id": "oewn-black_pepper__1.13.00..",
+        "definition": [
+          "pepper that is ground from whole peppercorns with husks on"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "cooking oil": [
+      {
+        "sense_id": "oewn-cooking_oil__1.13.00..",
+        "definition": [
+          "any of numerous vegetable oils used in cooking"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "texture": [
+      {
+        "sense_id": "oewn-texture__1.07.00..",
+        "definition": [
+          "the feel of a surface or a fabric"
+        ],
+        "examples": [
+          "the wall had a smooth texture"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-texture__1.07.01..",
+        "definition": [
+          "the characteristic appearance of a surface having a tactile quality"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "tender": [
+      {
+        "sense_id": "oewn-tender__3.00.01..",
+        "definition": [
+          "easy to cut or chew"
+        ],
+        "examples": [
+          "tender beef"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-tender__2.40.02..",
+        "definition": [
+          "propose a payment"
+        ],
+        "examples": [
+          "The Swiss dealer offered $2 million for the painting"
+        ],
+        "synonyms": [
+          "offer",
+          "bid"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "even": [
+      {
+        "sense_id": "oewn-even__3.00.01..",
+        "definition": [
+          "being level or straight or regular and without variation as e.g. in shape or texture; or being in the same plane or at the same height as something else (i.e. even with)"
+        ],
+        "examples": [
+          "an even application of varnish",
+          "an even floor",
+          "the road was not very even",
+          "the picture is even with the window"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "thoroughly": [
+      {
+        "sense_id": "oewn-thoroughly__4.02.00..",
+        "definition": [
+          "in an exhaustive manner"
+        ],
+        "examples": [
+          "we searched the files thoroughly"
+        ],
+        "synonyms": [
+          "exhaustively"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "preheat": [
+      {
+        "sense_id": "oewn-preheat__2.30.00..",
+        "definition": [
+          "heat beforehand"
+        ],
+        "examples": [
+          "Preheat the oven!"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "flip": [
+      {
+        "sense_id": "oewn-flip__2.39.10..",
+        "definition": [
+          "look through a book or other written material"
+        ],
+        "examples": [
+          "He thumbed through the report",
+          "She leafed through the volume"
+        ],
+        "synonyms": [
+          "flick",
+          "thumb",
+          "riffle",
+          "leaf",
+          "riff"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 0.0
+}

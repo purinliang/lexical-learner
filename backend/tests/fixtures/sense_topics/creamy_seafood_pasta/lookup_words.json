@@ -1,0 +1,779 @@
+{
+  "run_id": "6a187799-bc7a-4be5-bfa2-6a7afbaa0086",
+  "stage": "lookup_words",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:47:56.421671+00:00",
+  "input": {
+    "words": [
+      "al dente",
+      "boil",
+      "simmer",
+      "sauté",
+      "emulsify",
+      "pasta",
+      "spaghetti",
+      "linguine",
+      "heavy cream",
+      "parmesan",
+      "garlic",
+      "shrimp",
+      "scallop",
+      "mussel",
+      "clam",
+      "black pepper",
+      "parsley",
+      "olive oil",
+      "butter",
+      "white wine",
+      "lemon zest",
+      "colander",
+      "tongs",
+      "skillet",
+      "saucepan",
+      "texture",
+      "creamy",
+      "aromatic",
+      "garish",
+      "doneness"
+    ]
+  },
+  "output": {
+    "al dente": [
+      {
+        "sense_id": "oewn-al_dente__5.00.00.hard.01",
+        "definition": [
+          "of pasta cooked so as to be firm when eaten"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "boil": [
+      {
+        "sense_id": "oewn-boil__1.26.00..",
+        "definition": [
+          "a painful sore with a hard core filled with pus"
+        ],
+        "examples": [],
+        "synonyms": [
+          "furuncle"
+        ]
+      },
+      {
+        "sense_id": "oewn-boil__1.07.00..",
+        "definition": [
+          "the temperature at which a liquid boils at sea level"
+        ],
+        "examples": [
+          "they brought the water to a boil"
+        ],
+        "synonyms": [
+          "boiling point"
+        ]
+      },
+      {
+        "sense_id": "oewn-boil__2.30.01..",
+        "definition": [
+          "come to the boiling point and change from a liquid to vapor"
+        ],
+        "examples": [
+          "Water boils at 100 degrees Celsius"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-boil__2.30.00..",
+        "definition": [
+          "immerse or be immersed in a boiling liquid, often for cooking purposes"
+        ],
+        "examples": [
+          "boil potatoes",
+          "boil wool"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-boil__2.30.02..",
+        "definition": [
+          "bring to, or maintain at, the boiling point"
+        ],
+        "examples": [
+          "boil this liquid until it evaporates"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-boil__2.38.00..",
+        "definition": [
+          "be agitated"
+        ],
+        "examples": [
+          "the sea was churning in the storm"
+        ],
+        "synonyms": [
+          "churn",
+          "moil",
+          "roil"
+        ]
+      },
+      {
+        "sense_id": "oewn-boil__2.37.00..",
+        "definition": [
+          "be in an agitated emotional state"
+        ],
+        "examples": [
+          "The customer was seething with anger"
+        ],
+        "synonyms": [
+          "seethe"
+        ]
+      }
+    ],
+    "simmer": [
+      {
+        "sense_id": "oewn-simmer__1.07.00..",
+        "definition": [
+          "temperature just below the boiling point"
+        ],
+        "examples": [
+          "the stew remained at a simmer for hours"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-simmer__2.30.00..",
+        "definition": [
+          "boil slowly at low temperature"
+        ],
+        "examples": [
+          "simmer the sauce",
+          "simmering water"
+        ],
+        "synonyms": []
+      }
+    ],
+    "sauté": [
+      {
+        "sense_id": "oewn-saute__5.00.00.cooked.00",
+        "definition": [
+          "fried quickly in a little fat"
+        ],
+        "examples": [],
+        "synonyms": [
+          "sauteed"
+        ]
+      },
+      {
+        "sense_id": "oewn-saute__1.13.00..",
+        "definition": [
+          "a dish of sauteed food"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-saute__2.30.00..",
+        "definition": [
+          "fry briefly over high heat"
+        ],
+        "examples": [
+          "saute the onions"
+        ],
+        "synonyms": []
+      }
+    ],
+    "emulsify": [
+      {
+        "sense_id": "oewn-emulsify__2.30.01..",
+        "definition": [
+          "cause to become an emulsion; make into an emulsion"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-emulsify__2.30.00..",
+        "definition": [
+          "form into or become an emulsion"
+        ],
+        "examples": [
+          "The solution emulsified"
+        ],
+        "synonyms": []
+      }
+    ],
+    "pasta": [
+      {
+        "sense_id": "oewn-pasta__1.13.01..",
+        "definition": [
+          "a dish that contains pasta as its main ingredient"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-pasta__1.13.00..",
+        "definition": [
+          "shaped and dried dough made from flour and water and sometimes egg"
+        ],
+        "examples": [],
+        "synonyms": [
+          "alimentary paste"
+        ]
+      }
+    ],
+    "spaghetti": [
+      {
+        "sense_id": "oewn-spaghetti__1.13.01..",
+        "definition": [
+          "spaghetti served with a tomato sauce"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-spaghetti__1.13.00..",
+        "definition": [
+          "pasta in the form of long strings"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "linguine": [
+      {
+        "sense_id": "oewn-linguine__1.13.00..",
+        "definition": [
+          "pasta in long slender flat strips"
+        ],
+        "examples": [],
+        "synonyms": [
+          "linguini"
+        ]
+      }
+    ],
+    "heavy cream": [
+      {
+        "sense_id": "oewn-heavy_cream__1.13.00..",
+        "definition": [
+          "contains more than 36% butterfat"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "parmesan": [
+      {
+        "sense_id": "oewn-parmesan__1.13.00..",
+        "definition": [
+          "hard dry sharp-flavored Italian cheese; often grated"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "garlic": [
+      {
+        "sense_id": "oewn-garlic__1.20.00..",
+        "definition": [
+          "bulbous herb of southern Europe widely naturalized; bulb breaks up into separate strong-flavored cloves"
+        ],
+        "examples": [],
+        "synonyms": [
+          "Allium sativum"
+        ]
+      },
+      {
+        "sense_id": "oewn-garlic__1.13.00..",
+        "definition": [
+          "aromatic bulb used as seasoning"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ail"
+        ]
+      }
+    ],
+    "shrimp": [
+      {
+        "sense_id": "oewn-shrimp__1.18.00..",
+        "definition": [
+          "disparaging terms for small people"
+        ],
+        "examples": [],
+        "synonyms": [
+          "runt",
+          "peewee",
+          "half-pint"
+        ]
+      },
+      {
+        "sense_id": "oewn-shrimp__1.13.00..",
+        "definition": [
+          "any of various edible decapod crustaceans"
+        ],
+        "examples": [],
+        "synonyms": [
+          "prawn"
+        ]
+      },
+      {
+        "sense_id": "oewn-shrimp__1.05.00..",
+        "definition": [
+          "small slender-bodied chiefly marine decapod crustaceans with a long tail and single pair of pincers; many species are edible"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-shrimp__2.33.00..",
+        "definition": [
+          "fish for shrimp"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "scallop": [
+      {
+        "sense_id": "oewn-scallop__1.25.00..",
+        "definition": [
+          "one of a series of rounded projections (or the notches between them) formed by curves along an edge (as the edge of a leaf or piece of cloth or the margin of a shell or a shriveled red blood cell observed in a hypertonic solution etc.)"
+        ],
+        "examples": [],
+        "synonyms": [
+          "crenation",
+          "crenature",
+          "crenel",
+          "crenelle"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__1.13.00..",
+        "definition": [
+          "edible muscle of mollusks having fan-shaped shells; served broiled or poached or in salads or cream sauces"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scollop",
+          "escallop"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__1.13.02..",
+        "definition": [
+          "thin slice of meat (especially veal) usually fried or broiled"
+        ],
+        "examples": [],
+        "synonyms": [
+          "cutlet",
+          "scollop",
+          "escallop"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__1.05.00..",
+        "definition": [
+          "edible marine bivalve having a fluted fan-shaped shell that swim by expelling water from the shell in a series of snapping motions"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scollop",
+          "escallop"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__2.36.00..",
+        "definition": [
+          "decorate an edge with scallops"
+        ],
+        "examples": [
+          "the dress had a scalloped skirt"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-scallop__2.36.01..",
+        "definition": [
+          "bake in a sauce, milk, etc., often with breadcrumbs on top"
+        ],
+        "examples": [],
+        "synonyms": [
+          "escallop"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__2.35.00..",
+        "definition": [
+          "form scallops in"
+        ],
+        "examples": [
+          "scallop the meat"
+        ],
+        "synonyms": [
+          "scollop"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__2.33.00..",
+        "definition": [
+          "fish for scallops"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scollop"
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__2.30.00..",
+        "definition": [
+          "shape or cut in scallops"
+        ],
+        "examples": [
+          "scallop the hem of the dress"
+        ],
+        "synonyms": [
+          "scollop"
+        ]
+      }
+    ],
+    "mussel": [
+      {
+        "sense_id": "oewn-mussel__1.13.00..",
+        "definition": [
+          "black marine bivalves usually steamed in wine"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-mussel__1.05.00..",
+        "definition": [
+          "marine or freshwater bivalve mollusk that lives attached to rocks etc."
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "clam": [
+      {
+        "sense_id": "oewn-clam__1.05.00..",
+        "definition": [
+          "burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-clam__1.21.00..",
+        "definition": [
+          "a piece of paper money worth one dollar"
+        ],
+        "examples": [],
+        "synonyms": [
+          "dollar",
+          "dollar bill",
+          "one dollar bill",
+          "buck"
+        ]
+      },
+      {
+        "sense_id": "oewn-clam__1.13.00..",
+        "definition": [
+          "flesh of either hard-shell or soft-shell clams"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-clam__2.35.00..",
+        "definition": [
+          "gather clams, by digging in the sand by the ocean"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "black pepper": [
+      {
+        "sense_id": "oewn-black_pepper__1.20.00..",
+        "definition": [
+          "climber having dark red berries (peppercorns) when fully ripe; southern India and Sri Lanka; naturalized in northern Burma and Assam"
+        ],
+        "examples": [],
+        "synonyms": [
+          "pepper",
+          "common pepper",
+          "white pepper",
+          "Madagascar pepper",
+          "Piper nigrum"
+        ]
+      },
+      {
+        "sense_id": "oewn-black_pepper__1.13.00..",
+        "definition": [
+          "pepper that is ground from whole peppercorns with husks on"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "parsley": [
+      {
+        "sense_id": "oewn-parsley__1.20.00..",
+        "definition": [
+          "annual or perennial herb with aromatic leaves"
+        ],
+        "examples": [],
+        "synonyms": [
+          "Petroselinum crispum"
+        ]
+      },
+      {
+        "sense_id": "oewn-parsley__1.13.00..",
+        "definition": [
+          "aromatic herb with flat or crinkly leaves that are cut finely and used to garnish food"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "olive oil": [
+      {
+        "sense_id": "oewn-olive_oil__1.13.00..",
+        "definition": [
+          "oil from olives"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "butter": [
+      {
+        "sense_id": "oewn-butter__1.13.00..",
+        "definition": [
+          "an edible emulsion of fat globules made by churning milk or cream; for cooking and table use"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-butter__1.18.00..",
+        "definition": [
+          "a fighter who strikes the opponent with their head"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-butter__2.35.00..",
+        "definition": [
+          "spread butter on"
+        ],
+        "examples": [
+          "butter bread"
+        ],
+        "synonyms": []
+      }
+    ],
+    "white wine": [
+      {
+        "sense_id": "oewn-white_wine__1.13.00..",
+        "definition": [
+          "pale yellowish wine made from white grapes or red grapes with skins removed before fermentation"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "lemon zest": [
+      {
+        "sense_id": "oewn-lemon_zest__1.13.00..",
+        "definition": [
+          "tiny bits of lemon peel"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "colander": [
+      {
+        "sense_id": "oewn-colander__1.06.00..",
+        "definition": [
+          "bowl-shaped strainer; used to wash or drain foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "cullender"
+        ]
+      }
+    ],
+    "tongs": [
+      {
+        "sense_id": "oewn-tongs__1.06.00..",
+        "definition": [
+          "any of various devices for taking hold of objects; usually have two hinged legs with handles above and pointed hooks below"
+        ],
+        "examples": [],
+        "synonyms": [
+          "pair of tongs"
+        ]
+      }
+    ],
+    "skillet": [
+      {
+        "sense_id": "oewn-skillet__1.06.00..",
+        "definition": [
+          "a pan used for frying foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "frying pan",
+          "frypan"
+        ]
+      }
+    ],
+    "saucepan": [
+      {
+        "sense_id": "oewn-saucepan__1.06.00..",
+        "definition": [
+          "a deep pan with a handle; used for stewing or boiling"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "texture": [
+      {
+        "sense_id": "oewn-texture__1.07.00..",
+        "definition": [
+          "the feel of a surface or a fabric"
+        ],
+        "examples": [
+          "the wall had a smooth texture"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.09.00..",
+        "definition": [
+          "the essential quality of something"
+        ],
+        "examples": [
+          "the texture of Neapolitan life"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.02..",
+        "definition": [
+          "the musical pattern created by parts being played or sung together"
+        ],
+        "examples": [
+          "then another melodic line is added to the texture"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.01..",
+        "definition": [
+          "the characteristic appearance of a surface having a tactile quality"
+        ],
+        "examples": [],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-texture__1.07.03..",
+        "definition": [
+          "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+        ],
+        "examples": [
+          "breadfruit has the same texture as bread",
+          "sand of a fine grain",
+          "fish with a delicate flavor and texture",
+          "a stone of coarse grain"
+        ],
+        "synonyms": [
+          "grain"
+        ]
+      }
+    ],
+    "creamy": [
+      {
+        "sense_id": "oewn-creamy__5.00.00.chromatic.00",
+        "definition": [
+          "of the color of cream"
+        ],
+        "examples": [
+          "creamy translucent pebbles"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-creamy__5.00.00.thick.02",
+        "definition": [
+          "thick like cream"
+        ],
+        "examples": [],
+        "synonyms": []
+      }
+    ],
+    "aromatic": [
+      {
+        "sense_id": "oewn-aromatic__3.01.00..",
+        "definition": [
+          "(chemistry) of or relating to or containing one or more benzene rings"
+        ],
+        "examples": [
+          "an aromatic organic compound"
+        ],
+        "synonyms": []
+      },
+      {
+        "sense_id": "oewn-aromatic__5.00.00.fragrant.00",
+        "definition": [
+          "having a strong pleasant odor"
+        ],
+        "examples": [
+          "the pine woods were more redolent"
+        ],
+        "synonyms": [
+          "redolent"
+        ]
+      }
+    ],
+    "garish": [
+      {
+        "sense_id": "oewn-garish__5.00.00.tasteless.02",
+        "definition": [
+          "tastelessly showy"
+        ],
+        "examples": [
+          "a flash car",
+          "a flashy ring",
+          "garish colors",
+          "a gaudy costume",
+          "loud sport shirts",
+          "a meretricious yet stylish book",
+          "tawdry ornaments"
+        ],
+        "synonyms": [
+          "brassy",
+          "cheap",
+          "flash",
+          "flashy",
+          "gaudy",
+          "gimcrack",
+          "loud",
+          "meretricious",
+          "tacky",
+          "tatty",
+          "tawdry",
+          "trashy"
+        ]
+      }
+    ],
+    "doneness": []
+  },
+  "elapsed_seconds": 0.335
+}

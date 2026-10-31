@@ -1,0 +1,32 @@
+{
+  "run_id": "cc6ffd7d-ff7d-447b-b495-3ddd91b9c647",
+  "stage": "summary",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:45:50.109280+00:00",
+  "input": {},
+  "output": {
+    "scenario": "creamy_seafood_pasta",
+    "candidate_count": 18,
+    "selected_words": 4,
+    "selected_senses": 7,
+    "not_found": [
+      "creamy seafood pasta",
+      "fresh parsley",
+      "cracked black pepper",
+      "boil until tender",
+      "cooking time",
+      "pasta texture",
+      "flavor profile",
+      "sauce consistency",
+      "culinary technique",
+      "perfectly cooked",
+      "mouthfeel",
+      "pasta water",
+      "gourmet presentation"
+    ],
+    "no_matching_sense": [
+      "plating"
+    ]
+  },
+  "elapsed_seconds": 0.0
+}

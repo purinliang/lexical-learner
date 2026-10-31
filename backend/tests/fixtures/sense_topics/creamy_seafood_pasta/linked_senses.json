@@ -1,0 +1,1261 @@
+{
+  "run_id": "6a187799-bc7a-4be5-bfa2-6a7afbaa0086",
+  "stage": "linked_senses",
+  "model": "gemini-3.1-flash-lite",
+  "captured_at": "2026-10-30T23:50:15.041801+00:00",
+  "elapsed_seconds": 0.0,
+  "input": {
+    "selected": {
+      "al dente": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "boil": [
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 4,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "simmer": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "sauté": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        },
+        {
+          "index": 2,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "emulsify": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-cooking"
+          ]
+        }
+      ],
+      "pasta": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dishes"
+          ]
+        }
+      ],
+      "spaghetti": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dishes"
+          ]
+        }
+      ],
+      "linguine": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dishes"
+          ]
+        }
+      ],
+      "heavy cream": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "parmesan": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "garlic": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "shrimp": [
+        {
+          "index": 2,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "scallop": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        },
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "mussel": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        },
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "clam": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        },
+        {
+          "index": 2,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "black pepper": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "parsley": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "olive oil": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "butter": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "white wine": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-beverages"
+          ]
+        }
+      ],
+      "lemon zest": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-ingredients"
+          ]
+        }
+      ],
+      "colander": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-kitchen"
+          ]
+        }
+      ],
+      "tongs": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-kitchen"
+          ]
+        }
+      ],
+      "skillet": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-kitchen"
+          ]
+        }
+      ],
+      "saucepan": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-kitchen"
+          ]
+        }
+      ],
+      "texture": [
+        {
+          "index": 0,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        },
+        {
+          "index": 3,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        },
+        {
+          "index": 4,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "creamy": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "aromatic": [
+        {
+          "index": 1,
+          "topic_ids": [
+            "food-drink"
+          ],
+          "subtopic_ids": [
+            "food-dining"
+          ]
+        }
+      ],
+      "garish": [],
+      "doneness": []
+    }
+  },
+  "output": {
+    "al dente": [
+      {
+        "sense_id": "oewn-al_dente__5.00.00.hard.01",
+        "definition": [
+          "of pasta cooked so as to be firm when eaten"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "boil": [
+      {
+        "sense_id": "oewn-boil__2.30.00..",
+        "definition": [
+          "immerse or be immersed in a boiling liquid, often for cooking purposes"
+        ],
+        "examples": [
+          "boil potatoes",
+          "boil wool"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-boil__2.30.02..",
+        "definition": [
+          "bring to, or maintain at, the boiling point"
+        ],
+        "examples": [
+          "boil this liquid until it evaporates"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "simmer": [
+      {
+        "sense_id": "oewn-simmer__2.30.00..",
+        "definition": [
+          "boil slowly at low temperature"
+        ],
+        "examples": [
+          "simmer the sauce",
+          "simmering water"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "sauté": [
+      {
+        "sense_id": "oewn-saute__5.00.00.cooked.00",
+        "definition": [
+          "fried quickly in a little fat"
+        ],
+        "examples": [],
+        "synonyms": [
+          "sauteed"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-saute__2.30.00..",
+        "definition": [
+          "fry briefly over high heat"
+        ],
+        "examples": [
+          "saute the onions"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "emulsify": [
+      {
+        "sense_id": "oewn-emulsify__2.30.00..",
+        "definition": [
+          "form into or become an emulsion"
+        ],
+        "examples": [
+          "The solution emulsified"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-cooking",
+            "name": "Cooking",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "pasta": [
+      {
+        "sense_id": "oewn-pasta__1.13.00..",
+        "definition": [
+          "shaped and dried dough made from flour and water and sometimes egg"
+        ],
+        "examples": [],
+        "synonyms": [
+          "alimentary paste"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dishes",
+            "name": "Dishes",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "spaghetti": [
+      {
+        "sense_id": "oewn-spaghetti__1.13.00..",
+        "definition": [
+          "pasta in the form of long strings"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dishes",
+            "name": "Dishes",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "linguine": [
+      {
+        "sense_id": "oewn-linguine__1.13.00..",
+        "definition": [
+          "pasta in long slender flat strips"
+        ],
+        "examples": [],
+        "synonyms": [
+          "linguini"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dishes",
+            "name": "Dishes",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "heavy cream": [
+      {
+        "sense_id": "oewn-heavy_cream__1.13.00..",
+        "definition": [
+          "contains more than 36% butterfat"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "parmesan": [
+      {
+        "sense_id": "oewn-parmesan__1.13.00..",
+        "definition": [
+          "hard dry sharp-flavored Italian cheese; often grated"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "garlic": [
+      {
+        "sense_id": "oewn-garlic__1.13.00..",
+        "definition": [
+          "aromatic bulb used as seasoning"
+        ],
+        "examples": [],
+        "synonyms": [
+          "ail"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "shrimp": [
+      {
+        "sense_id": "oewn-shrimp__1.05.00..",
+        "definition": [
+          "small slender-bodied chiefly marine decapod crustaceans with a long tail and single pair of pincers; many species are edible"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "scallop": [
+      {
+        "sense_id": "oewn-scallop__1.13.00..",
+        "definition": [
+          "edible muscle of mollusks having fan-shaped shells; served broiled or poached or in salads or cream sauces"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scollop",
+          "escallop"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-scallop__1.05.00..",
+        "definition": [
+          "edible marine bivalve having a fluted fan-shaped shell that swim by expelling water from the shell in a series of snapping motions"
+        ],
+        "examples": [],
+        "synonyms": [
+          "scollop",
+          "escallop"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "mussel": [
+      {
+        "sense_id": "oewn-mussel__1.13.00..",
+        "definition": [
+          "black marine bivalves usually steamed in wine"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-mussel__1.05.00..",
+        "definition": [
+          "marine or freshwater bivalve mollusk that lives attached to rocks etc."
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "clam": [
+      {
+        "sense_id": "oewn-clam__1.05.00..",
+        "definition": [
+          "burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-clam__1.13.00..",
+        "definition": [
+          "flesh of either hard-shell or soft-shell clams"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "black pepper": [
+      {
+        "sense_id": "oewn-black_pepper__1.13.00..",
+        "definition": [
+          "pepper that is ground from whole peppercorns with husks on"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "parsley": [
+      {
+        "sense_id": "oewn-parsley__1.13.00..",
+        "definition": [
+          "aromatic herb with flat or crinkly leaves that are cut finely and used to garnish food"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "olive oil": [
+      {
+        "sense_id": "oewn-olive_oil__1.13.00..",
+        "definition": [
+          "oil from olives"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "butter": [
+      {
+        "sense_id": "oewn-butter__1.13.00..",
+        "definition": [
+          "an edible emulsion of fat globules made by churning milk or cream; for cooking and table use"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "white wine": [
+      {
+        "sense_id": "oewn-white_wine__1.13.00..",
+        "definition": [
+          "pale yellowish wine made from white grapes or red grapes with skins removed before fermentation"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-beverages",
+            "name": "Beverages",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "lemon zest": [
+      {
+        "sense_id": "oewn-lemon_zest__1.13.00..",
+        "definition": [
+          "tiny bits of lemon peel"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-ingredients",
+            "name": "Ingredients",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "colander": [
+      {
+        "sense_id": "oewn-colander__1.06.00..",
+        "definition": [
+          "bowl-shaped strainer; used to wash or drain foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "cullender"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-kitchen",
+            "name": "Kitchen",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "tongs": [
+      {
+        "sense_id": "oewn-tongs__1.06.00..",
+        "definition": [
+          "any of various devices for taking hold of objects; usually have two hinged legs with handles above and pointed hooks below"
+        ],
+        "examples": [],
+        "synonyms": [
+          "pair of tongs"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-kitchen",
+            "name": "Kitchen",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "skillet": [
+      {
+        "sense_id": "oewn-skillet__1.06.00..",
+        "definition": [
+          "a pan used for frying foods"
+        ],
+        "examples": [],
+        "synonyms": [
+          "frying pan",
+          "frypan"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-kitchen",
+            "name": "Kitchen",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "saucepan": [
+      {
+        "sense_id": "oewn-saucepan__1.06.00..",
+        "definition": [
+          "a deep pan with a handle; used for stewing or boiling"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-kitchen",
+            "name": "Kitchen",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "texture": [
+      {
+        "sense_id": "oewn-texture__1.07.00..",
+        "definition": [
+          "the feel of a surface or a fabric"
+        ],
+        "examples": [
+          "the wall had a smooth texture"
+        ],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-texture__1.07.01..",
+        "definition": [
+          "the characteristic appearance of a surface having a tactile quality"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      },
+      {
+        "sense_id": "oewn-texture__1.07.03..",
+        "definition": [
+          "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance)"
+        ],
+        "examples": [
+          "breadfruit has the same texture as bread",
+          "sand of a fine grain",
+          "fish with a delicate flavor and texture",
+          "a stone of coarse grain"
+        ],
+        "synonyms": [
+          "grain"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "creamy": [
+      {
+        "sense_id": "oewn-creamy__5.00.00.thick.02",
+        "definition": [
+          "thick like cream"
+        ],
+        "examples": [],
+        "synonyms": [],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "aromatic": [
+      {
+        "sense_id": "oewn-aromatic__5.00.00.fragrant.00",
+        "definition": [
+          "having a strong pleasant odor"
+        ],
+        "examples": [
+          "the pine woods were more redolent"
+        ],
+        "synonyms": [
+          "redolent"
+        ],
+        "topics": [
+          {
+            "id": "food-drink",
+            "name": "Food & Drink",
+            "category": "Life"
+          }
+        ],
+        "subtopics": [
+          {
+            "id": "food-dining",
+            "name": "Dining",
+            "topic_id": "food-drink"
+          }
+        ]
+      }
+    ],
+    "garish": [],
+    "doneness": []
+  },
+  "resumed_after": "select_senses_rejected_schema.json"
+}
